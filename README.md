@@ -1,62 +1,83 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<h1 align="center">Patlabor API</h1>
 
 <p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+An API with information of Mobile Police Patlabor 🤖
+<img src=".assets/patlabor_banner.webp" alt="Patlabor banner">
 </p>
 
-## About Laravel
+## About Patlabor API
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+This project aims to provide information and images of the anime Mobile Police Patlabor.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## What is an API?
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+An API (Application Programming Interface) is a contract that allow developers to interact with an application through a set of interfaces. In this case, the application is a database with patlabor-anime information, and the interfaces are URL links. A RESTful API is an API that conforms to a set of loose conventions based on HTTP verbs, errors, and hyperlinks.
 
-## Learning Laravel
+## Try the project
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+https://patlabor-api.herokuapp.com/api/v1/characters/1
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+```json
+{
+    "id": 1,
+    "name": "Noa Izumi",
+    "age": null,
+    "birthplace": "Tomakomai, Hokkaido, Japan",
+    "nationality": "Japanese",
+    "gender": "female",
+    "occupation": "Labors pilot",
+    "rank": "officer",
+    "affiliation": "Section 2 Division 2 Team 1",
+    "image": "https://patlabor-api.herokuapp.com/images/characters/1.jpg",
+    "description": "Noa is somewhat impulsive, albeit not nearly as much as Ohta... "
+}
+```
 
-## Laravel Sponsors
+## Routes
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+| END POINT        | HTTP METHOD GET     |
+| -----------      | ---------------     |
+| /characters      | List all Characters |
+| /characters/{id} | Show Character      |
+| /labors          | List Labors         |
+| /labors/{id}     | Show Labor          |
 
-### Premium Partners
+## Usage
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/)**
-- **[OP.GG](https://op.gg)**
+[to edit...]
+
+## Used technologies
+
+- PHP
+- Laravel
 
 ## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Thank you for considering contributing to Patlabor API
 
-## Code of Conduct
+- You can contribute by sending information about characters or labors that have not yet been added.
+- You can also contribute by suggesting improvements to the project, code, endpoints, etc.
+- Reporting bugs 
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+In any case, feel free to create [a new issue](https://github.com/lmendev/patlabor-api/issues) with detailed explanation please!
 
-## Security Vulnerabilities
+## Contact me
+Let me know about the cool projects you develop with Patlabor API 😄
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+- Follow me on Twitter, I usually share development stuff <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/Lmendev?style=social"> 
+- Did you use or see the project? Share with me your feedback! <a href="https://twitter.com/intent/tweet?text=Hi! @Lmendev I just saw your project &url=https%3A%2F%2Fgithub.com%2FLmendev%2FPatlabor-api"><img alt="Twitter" src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FLmendev"></a>
+
+## Sources
+Information gathered from various resources:
+
+- [Anidb](https://anidb.net)
+- [Wikipedia Japan](https://ja.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E8%AD%A6%E5%AF%9F%E3%83%91%E3%83%88%E3%83%AC%E3%82%A4%E3%83%90%E3%83%BC%E3%81%AE%E7%99%BB%E5%A0%B4%E4%BA%BA%E7%89%A9#.E7.89.B9.E8.BB.8A.E4.BA.8C.E8.AA.B2_.E7.AC.AC.E4.BA.8C.E5.B0.8F.E9.9A.8A) 
+- [Wikipedia USA](https://en.wikipedia.org/wiki/List_of_Patlabor_characters#Section_2_Division_2)
+- [patlabormechanime.fandom](https://patlabormechanime.fandom.com/es/wiki/Mikiyasu_Shinshi)
+- [patlabor.fandom](https://patlabor.fandom.com/)
+- [myanimelist](https://myanimelist.net/)
+- [patlabor.info](http://www.patlabor.info/)
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Patlabor API is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
