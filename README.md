@@ -5,6 +5,10 @@ An API with information of Mobile Police Patlabor 🤖
 <img src=".assets/patlabor_banner.webp" alt="Patlabor banner">
 </p>
 
+<p align="center">
+    <img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/v/release/lmendev/patlabor-api?include_prereleases">
+</p>
+
 ## About Patlabor API
 
 This project aims to provide information and images of the anime Mobile Police Patlabor.
