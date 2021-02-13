@@ -80,4 +80,8 @@ Information gathered from various resources:
 
 ## License
 
+The story of Patlabor, images and designs are copyrighted material. This is a fan made project and is not intended to infringe on any copyrighted material. Images and synopses of Patlabor material is intended to be used for information, review and research purposes only for other fans and is in no way used for profit.
+
+All images are copyright of their respective owners. ©1988 - 1994, 2002, 2014 - 2016 Headgear/Emotion/Bandai Visual/TFC/Shogakukan/NTV/Production I.G./Akemi Takada/Masami Yuuki/The Next Generation - Patlabor - Production Committee/Khara. All other logos/trademarks are copyright of their respective owners/companies. Images on this project are used for review and illustration purposes only.
+
 Patlabor API is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
