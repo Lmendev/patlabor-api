@@ -19,7 +19,11 @@ An API (Application Programming Interface) is a contract that allow developers t
 
 ## Try the project
 
+Get character 1:
+
 https://patlabor-api.herokuapp.com/api/v1/characters/1
+
+Result:
 
 ```json
 {
@@ -43,7 +47,7 @@ https://patlabor-api.herokuapp.com/api/v1/characters/1
 | -----------      | ---------------     |
 | /characters      | List all Characters |
 | /characters/{id} | Show Character      |
-| /labors          | List Labors         |
+| /labors          | List all Labors     |
 | /labors/{id}     | Show Labor          |
 
 ## Usage
