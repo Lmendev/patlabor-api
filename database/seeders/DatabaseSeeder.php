@@ -60,7 +60,7 @@ class DatabaseSeeder extends Seeder
             'name' => 'Ingram AV-98',
             'unit_type' => 'Police Patrol Labor',
             'release_date' => '3 de Abril de 1998',
-            'Manufacturer' => 'Shinohara Heavy Industries, Hachioji Factory',
+            'manufacturer' => 'Shinohara Heavy Industries, Hachioji Factory',
             'affiliation' => 'Section 2 Division 2',
             'image' => url('/')."/images/labors/1.jpg",
             'description' => "The Ingram AV-98 (AV stands for 'Advanced Vehicle') was developed specially for the police force to combat Labor crime. It is styled in a way to look menacing. The main unit comes with two weapons; an electric baton (or stun stick, a weapon that can stop Labors with high powered electric currents) which is stored under it's shield in it's left arm, and a 37mm revolver cannon, stored in it's left leg. A 90mm riot gun was also developed by the mechanics at the SV2 for the Ingram. The Second Division of the SV2 use these Labors. Ota's AV-98 (Unit 2) has a customised head which is very different to the standard issue. Unit 3 (the spare Labor) also has a customised head. In 'Patlabor 2 the movie', Unit 3 was developed as an experimental anti-electronic warfare Labor by Shinohara Heavy Industries, and it's head is equipped with ECM (Electronic Counter Measures) jamming pod."
