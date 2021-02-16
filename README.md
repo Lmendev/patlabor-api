@@ -5,6 +5,10 @@ An API with information of Mobile Police Patlabor 🤖
 <img src=".assets/patlabor_banner.webp" alt="Patlabor banner">
 </p>
 
+<p align="center">
+    <img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/v/release/lmendev/patlabor-api?include_prereleases">
+</p>
+
 ## About Patlabor API
 
 This project aims to provide information and images of the anime Mobile Police Patlabor.
@@ -15,7 +19,11 @@ An API (Application Programming Interface) is a contract that allow developers t
 
 ## Try the project
 
+Get character 1:
+
 https://patlabor-api.herokuapp.com/api/v1/characters/1
+
+Result:
 
 ```json
 {
@@ -39,7 +47,7 @@ https://patlabor-api.herokuapp.com/api/v1/characters/1
 | -----------      | ---------------     |
 | /characters      | List all Characters |
 | /characters/{id} | Show Character      |
-| /labors          | List Labors         |
+| /labors          | List all Labors     |
 | /labors/{id}     | Show Labor          |
 
 ## Usage
@@ -79,5 +87,9 @@ Information gathered from various resources:
 - [patlabor.info](http://www.patlabor.info/)
 
 ## License
+
+The story of Patlabor, images and designs are copyrighted material. This is a fan made project and is not intended to infringe on any copyrighted material. Images and synopses of Patlabor material is intended to be used for information, review and research purposes only for other fans and is in no way used for profit.
+
+All images are copyright of their respective owners. ©1988 - 1994, 2002, 2014 - 2016 Headgear/Emotion/Bandai Visual/TFC/Shogakukan/NTV/Production I.G./Akemi Takada/Masami Yuuki/The Next Generation - Patlabor - Production Committee/Khara. All other logos/trademarks are copyright of their respective owners/companies. Images on this project are used for review and illustration purposes only.
 
 Patlabor API is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
