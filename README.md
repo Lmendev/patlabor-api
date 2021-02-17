@@ -19,7 +19,7 @@ An API (Application Programming Interface) is a contract that allow developers t
 
 ## Try the project
 
-Get character 1:
+Get Character 1 information:
 
 https://patlabor-api.herokuapp.com/api/v1/characters/1
 
