@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Patlabor API</title>
-
+        <link rel="shortcut icon" href="./images/website/favicon.png" type="image/x-icon">
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
@@ -17,19 +17,63 @@
         <style>
             body {
                 font-family: 'Nunito';
-            }
-            body{
                 background: url('./images/website/patlabor_bg.jpg') no-repeat center center fixed #000000;   
             }
+            
             h1{
-                color: #ffffff;
-                background-color: #000000;
-                display: inline-block;
+                display: none;
             }
+
+            nav {
+                background-color: #353b48;
+                color: #dcdde1;
+                font-size: 1.2rem;
+                padding: 1rem 0;
+            }
+
+            nav ul {
+                margin: 0;
+            }
+
+            nav ul li {
+                list-style: none;
+            }
+
+            nav ul li a{
+                margin: 0 1.5rem;
+            }
+            nav ul li a:hover{
+                text-decoration: underline;
+            }
+
+            .nav-links {
+                display: flex;
+                justify-content: center;
+            }
+
         </style>
     </head>
     <body class="antialiased">
-    <h1>Patlabor API</h1>
+        <h1>Patlabor API</h1>
+        
+        <nav> 
+            <ul class="nav-links"> 
+                <li class="logo"><a href="#">Patlabor API</a></li> 
+            
+                <li class="item"><a href="#">Characters</a></li> 
+                <li class="item"><a href="#">Labors</a></li> 
+                <li class="item"><a href="https://github.com/Lmendev/patlabor-api/blob/main/README.md">Documentation</a></li> 
+                <li class="item"><a href="#">About</a></li> 
+            </ul>
+        </nav>
+
+
+        <footer>
+
+        </footer>
+
+    
+
     <!--
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
             @if (Route::has('login'))
