@@ -14,8 +14,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // \App\Models\User::factory(10)->create();
-        //echo url('/');
+        // Load initial Characters information
 
         DB::table('characters')->insert([
             [
@@ -46,7 +45,7 @@ class DatabaseSeeder extends Seeder
                 'birthplace' => 'Taito Ward, Tokyo, Japan',
                 'nationality' => 'Japanese',
                 'gender' => 'male',
-                'occupation' => '',
+                'occupation' => 'Captain of Division 2',
                 'rank' => 'captain',
                 'affiliation' => 'Section 2 Division 2',
                 'image' => url('/')."/images/characters/3.jpg",
@@ -84,19 +83,159 @@ class DatabaseSeeder extends Seeder
                 'affiliation' => 'Section 2 Division 2 Team 1',
                 'image' => url('/')."/images/characters/6.jpg",
                 'description' => "He is soft spoken and kind hearted. He wanted to join his father as a fisherman but easily gets seasick. He later joined the police force and eventually made it over to SV.2. Yamazaki's too large to fit in a labor's cockpit, so he is designated as the carrier driver for Unit 1. When not on duty he tends to SV.2's vegetable garden where his green fingers can be seen. He's extremely strong, as demonstrated in Movie 1 and 2 where Yamazaki mans the massive anti-labor rifle borrowed from the Narashino Parachute Labor team (apparently an M82 anti-material rifle). He shows the same strength in the TV series when he and Ohta fire the Ingram's Revolver pistol without the aid of a Labor, at the Schaft 'Griffon'."
+            ], [
+                'name' => 'Takeo Kumagami',
+                'age' => null,
+                'birthplace' => 'Nishinomiya, Hyogo, Japan',
+                'nationality' => 'Japanese',
+                'gender' => 'female',
+                'occupation' => 'labors pilot',
+                'rank' => 'officer',
+                'affiliation' => 'Section 2 Division 2 Team 2',
+                'image' => url('/')."/images/characters/7.jpg",
+                'description' => "Joined Section 2 shortly after Clancy's tenure ended, she takes Clancy's place as backup to Unit 2. She trained with the Hong Kong Police Force before getting assigned to the Ministry of Foreign Affairs. She was then offered a position with Interpol but ended up choosing the Special Vehicles department to continue her career. Calm and confident, Kumagami attends to her duties as effectively as Clancy did, but has different ideas about how to go about it. She practices martial arts and can be seen tossing Ohta and the rest of the Division 2 team around in sparring matches when not in the field. Kumagami's only weakness seems to be a fear of the supernatural. She is easily spooked and prone to fainting if scared sufficiently."
+            ], [
+                'name' => 'Mikiyasu Shinshi',
+                'age' => 29,
+                'birthplace' => null,
+                'nationality' => 'Japanese',
+                'gender' => 'male',
+                'occupation' => 'transporter truck driver',
+                'rank' => 'officer',
+                'affiliation' => 'Section 2 Division 2 Team 2',
+                'image' => url('/')."/images/characters/8.jpg",
+                'description' => "Shinshi is the driver for the second carrier. He was born Fujieda, Shizuoka Prefecture and is 29 at the start of the series. He was originally Ota's backup in the TV series and original OVA series until Kanuka replaced him. He is a quite introverted man, but can become surprisingly violent if provoked enough. He is also the rather henpecked husband of Tamiko, who is rather possessive of him. Shinshi is the only married member of the team. Kazunori Ito said in an interview he named the character after a friend he goes scuba diving with."
+            ], [
+                'name' => 'Shinobu Nagumo',
+                'age' => null,
+                'birthplace' => 'Setagaya Ward, Tokyo, Japan',
+                'nationality' => 'Japanese',
+                'gender' => 'female',
+                'occupation' => 'Captain of Division 1',
+                'rank' => 'captain',
+                'affiliation' => 'Section 2 Division 1',
+                'image' => url('/')."/images/characters/9.jpg",
+                'description' => "She is a professional, competent police officer, highly regarded by everyone in the police force - basically the exact opposite of Captain Kiichi Goto. Nagumo is a by-the-book style captain (as opposed to Goto who will often use somewhat unconventional methods to meet a goal); she always keeps her mind on the job and never loses her cool. Often she talks back to her superiors when she disagrees with an order, and this is probably why she remains at the SV2 rather being promoted to another job more worthy of her skills. Despite her conventional mentality, or because of it, she is always there to lend a hand whenever Division 2 needs it. She shares an office with Goto, which means she sees a lot of Goto's layabout act – and also is able to tell that Goto is a much more skilled police officer than he looks (their professional relationship might best be described as 'interesting'). It is also implied that Shinobu might have feelings for Kiichi."
+            ], [
+                'name' => 'Tsutomu Gomioka',
+                'age' => null,
+                'birthplace' => null,
+                'nationality' => 'Japanese',
+                'gender' => 'male',
+                'occupation' => 'labors pilot',
+                'rank' => 'officer',
+                'affiliation' => 'Section 2 Division 1 Team 2',
+                'image' => url('/')."/images/characters/10.jpg",
+                'description' => "One of the labor pilots for Division 1, and much like his commanding officer, he's very by-the-book. A good pilot, although his coworkers in Division 2 seem to have more talent. He only appears in the TV series. At the end of the series he becomes captain of the newly-formed Division 3"
+            ], [
+                'name' => 'Seitaroh Sakaki',
+                'age' => null,
+                'birthplace' => null,
+                'nationality' => 'Japanese',
+                'gender' => 'male',
+                'occupation' => 'labors mechanic',
+                'rank' => 'chief mechanic',
+                'affiliation' => 'Section 2 Mechanics',
+                'image' => url('/')."/images/characters/11.jpg",
+                'description' => "Leader of the labor mechanics that service SV.2. Gruff and loud, Sakaki doesn't like it when Division 2 brings back their labors in less than perfect condition. Threatens to throw all his mechanics into the sea when they don't perform up to his expectations. Sakaki has been a mechanic for most of his life but admits he finds it difficult to keep up with the ever advancing march of technology in the world."
+            ], [
+                'name' => 'Shigeo Shiba',
+                'age' => null,
+                'birthplace' => null,
+                'nationality' => 'Japanese',
+                'gender' => 'male',
+                'occupation' => 'labors mechanic',
+                'rank' => 'chief mechanic',
+                'affiliation' => 'Section 2 Mechanics',
+                'image' => url('/')."/images/characters/12.jpg",
+                'description' => "Second in command to Sakaki, and eventually replaces him when he retires. A total gearhead, he loves his job--probably a little too much, as he can be very hard to relax when he gets fired up. Shige is good friends with Asuma Shinohara."
             ]
         ]);
 
-        //labors
+        // Load initial Labors information
 
         DB::table('labors')->insert([
-            'name' => 'Ingram AV-98',
-            'unit_type' => 'Police Patrol Labor',
-            'release_date' => '3 de Abril de 1998',
-            'manufacturer' => 'Shinohara Heavy Industries, Hachioji Factory',
-            'affiliation' => 'Section 2 Division 2',
-            'image' => url('/')."/images/labors/1.jpg",
-            'description' => "The Ingram AV-98 (AV stands for 'Advanced Vehicle') was developed specially for the police force to combat Labor crime. It is styled in a way to look menacing. The main unit comes with two weapons; an electric baton (or stun stick, a weapon that can stop Labors with high powered electric currents) which is stored under it's shield in it's left arm, and a 37mm revolver cannon, stored in it's left leg. A 90mm riot gun was also developed by the mechanics at the SV2 for the Ingram. The Second Division of the SV2 use these Labors. Ota's AV-98 (Unit 2) has a customised head which is very different to the standard issue. Unit 3 (the spare Labor) also has a customised head. In 'Patlabor 2 the movie', Unit 3 was developed as an experimental anti-electronic warfare Labor by Shinohara Heavy Industries, and it's head is equipped with ECM (Electronic Counter Measures) jamming pod."
+            [
+                'name' => 'Ingram AV-98',
+                'unit_type' => 'Police Patrol Labor',
+                'release_date' => 'April 1998',
+                'manufacturer' => 'Shinohara Heavy Industries, Hachioji Factory',
+                'affiliation' => 'Special vehicles section two',
+                'image' => url('/')."/images/labors/1.jpg",
+                'description' => "The Ingram AV-98 (AV stands for 'Advanced Vehicle') was developed specially for the police force to combat Labor crime. It is styled in a way to look menacing. The main unit comes with two weapons; an electric baton (or stun stick, a weapon that can stop Labors with high powered electric currents) which is stored under it's shield in it's left arm, and a 37mm revolver cannon, stored in it's left leg. A 90mm riot gun was also developed by the mechanics at the SV2 for the Ingram. The Second Division of the SV2 use these Labors. Ota's AV-98 (Unit 2) has a customised head which is very different to the standard issue. Unit 3 (the spare Labor) also has a customised head. In 'Patlabor 2 the movie', Unit 3 was developed as an experimental anti-electronic warfare Labor by Shinohara Heavy Industries, and it's head is equipped with ECM (Electronic Counter Measures) jamming pod."
+            ], [
+                'name' => 'MPL-96 Askua-96',
+                'unit_type' => 'Police Patrol Labor',
+                'release_date' => 'October 1996',
+                'manufacturer' => 'Shinohara Heavy Industries, Hachioji Factory',
+                'affiliation' => 'Special vehicles section one',
+                'image' => url('/')."/images/labors/2.jpg",
+                'description' => "Based upon an old construction Labor, the Asuka-SSL-96 Taisyo. The term MPL stands for 'Main Police Labor'. This Labor was modified to create the first Patrol Labor. Though the only real modification was the addition of a light unit, police siren and a paint job. The first unit of the SV2 in the original OVA, and second unit in the first episode of the TV series used these Labors. They are fairly clunky and weren't much use against many criminal Labors."
+            ], [
+                'name' => "AV-X0 (AV-2) Type X-0 'Zero'",
+                'unit_type' => 'Police Patrol Labor',
+                'release_date' => 'September 1999',
+                'manufacturer' => 'Shinohara Heavy Industries, Hachioji Factory',
+                'affiliation' => 'Special vehicles section one',
+                'image' => url('/')."/images/labors/3.jpg",
+                'description' => "Essentially the AV-98 Ingram on steroids, this Patrol Labor is much more stronger than the Ingram and can lift a small construction Labor up with one hand a break it in to two. This Labor was designed with hand to hand combat in mind. In 'Patlabor the movie', Kanuka Clancy pilots the Labor while it is infected with the Babel Virus. Shinohara have also produced a version for the New York Police Department called the AV-02 Clash Buster which comes with a 44mm cannon, but this Labor does not appear in the anime."
+            ], [
+                'name' => "MPL-97S Python",
+                'unit_type' => 'Police Patrol Labor',
+                'release_date' => 'November 1997',
+                'manufacturer' => 'Manabe Heavy Industries',
+                'affiliation' => 'Special vehicles section one',
+                'image' => url('/')."/images/labors/4.jpg",
+                'description' => "Used by Division 1 in the TV series. This Labor may not be as good as the Ingram, but is still effective against most construction Labors. The term MPL stands for 'Main Police Labor'."
+            ], [
+                'name' => "AV-0 Peacemaker (Zero)",
+                'unit_type' => 'Police Patrol Labor',
+                'release_date' => 'September 1999',
+                'manufacturer' => 'Shinohara Heavy Industries, Hachioji Factory',
+                'affiliation' => 'Special vehicles section one',
+                'image' => url('/')."/images/labors/5.jpg",
+                'description' => "The AV-0 is shinohara industries final variant of the 'Ingram', and is expected to be the replacement of the model. It has already replaced the 'Python' units of section one. It is equipped mainly with the same equipment as the 'Ingram', police equipment, however there are major changes in the softwere and engineering of the unit. It is equipped with a nervous system that enables the robot to operate even when the pilot has lost conscience as it learns the movements of its pilots and copies them perfectly. It is also stronger and faster than 'Ingram' as it is able to operate with more eficiency, although unlike the Ingram it relies more on its superior technology than the abilities pilot himself which can be seen as a weakness as well as a strength, for example the Peacemaker system prevents it from going into battle near a civilian building. It has however been proved that it is not a match for the 'Griffon' and it's confrontation with it ends with the Peacemaker units of section one badly damaged. It is also known that this model is going to be delivered to the NYPD for its police labor unit."
+            ], [
+                'name' => "AV-02 Variant",
+                'unit_type' => 'Police Patrol Labor',
+                'release_date' => '2002',
+                'manufacturer' => 'Shinohara Heavy Industries, Hachioji Factory',
+                'affiliation' => 'Special vehicles section two',
+                'image' => url('/')."/images/labors/6.jpg",
+                'description' => "Very little is known about this model, due to its brief appearance. Judging from its design, this model appears to be based on the Ingram and the AV-X0 , with several functional enhancements added. Since it is the successor to the Ingram, it must be superior in some respects. The AV-02 Variant features a similar design, including the lights on its shoulders. It probably has good self-balance and a wide range of sensors located on its head."
+            ], [
+                'name' => "Type 99 Road Runner",
+                'unit_type' => 'Traffic Control Work',
+                'release_date' => '2002',
+                'manufacturer' => 'Shinohara Heavy Industries, Hachioji Factory',
+                'affiliation' => 'Tokyo Metropolitan Police',
+                'image' => url('/')."/images/labors/7.jpg",
+                'description' => "It is a traffic control task that can overcome any traffic jam thanks to its wheels and extendable legs. In its vehicle mode it resembles a car. When the legs are extended it goes into Labor mode, in which it can literally ride on other vehicles and manipulate objects with its retractable arms."
+            ], [
+                'name' => "MPL97AV-T (97-AV)",
+                'unit_type' => 'Training Police Patrol Labor',
+                'release_date' => null,
+                'manufacturer' => 'Shinohara Heavy Industries, Hachioji Factory',
+                'affiliation' => 'Special vehicles section',
+                'image' => url('/')."/images/labors/8.jpg",
+                'description' => "It was developed by Shinohara Heavy Industries to be a Training Task for cadets who aspire to pilot Patlabors."
+            ], [
+                'name' => "AV-98T Dauphan",
+                'unit_type' => 'Training Police Patrol Labor',
+                'release_date' => null,
+                'manufacturer' => 'Shinohara Heavy Industries, Hachioji Factory',
+                'affiliation' => 'Special vehicles section',
+                'image' => url('/')."/images/labors/9.jpg",
+                'description' => "Training Labor seen in the TV episode 'Kanuka Has Arrived'"
+            ], [
+                'name' => "AV-02T Lehrer",
+                'unit_type' => 'Training Police Patrol Labor',
+                'release_date' => null,
+                'manufacturer' => 'Shinohara Heavy Industries, Hachioji Factory',
+                'affiliation' => 'Special vehicles section',
+                'image' => url('/')."/images/labors/10.jpg",
+                'description' => "Training Labor seen only in 'Patlabor 2 the movie'"
+            ]
         ]);
     }
 }
