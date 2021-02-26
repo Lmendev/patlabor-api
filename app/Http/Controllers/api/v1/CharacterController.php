@@ -16,7 +16,8 @@ class CharacterController extends Controller
      */
     public function index()
     {
-        return CharacterResource::collection(Character::all());
+        //return CharacterResource::collection(Character::all());
+        return Character::all();
     }
 
     /**

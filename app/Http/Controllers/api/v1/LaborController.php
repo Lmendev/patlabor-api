@@ -15,7 +15,7 @@ class LaborController extends Controller
      */
     public function index()
     {
-        //
+        return Labor::all();
     }
 
     /**
