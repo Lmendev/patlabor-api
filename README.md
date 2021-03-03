@@ -85,6 +85,7 @@ Information gathered from various resources:
 - [patlabor.fandom](https://patlabor.fandom.com/)
 - [myanimelist](https://myanimelist.net/)
 - [patlabor.info](http://www.patlabor.info/)
+- [animenewsnetwork](http://www.animenewsnetwork.com)
 
 ## License
 
