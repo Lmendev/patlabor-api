@@ -54,10 +54,11 @@ Result:
 
 [to edit...]
 
-## Used technologies
+## Contact me
+Let me know about the cool projects you develop with Patlabor API 😄
 
-- PHP
-- Laravel
+- Follow me on Twitter, I usually share development stuff <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/Lmendev?style=social"> 
+- Did you use or see the project? Share with me your feedback! <a href="https://twitter.com/intent/tweet?text=Hi! @Lmendev I just saw your project &url=https%3A%2F%2Fgithub.com%2FLmendev%2FPatlabor-api"><img alt="Twitter" src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FLmendev"></a>
 
 ## Contributing
 
@@ -69,11 +70,30 @@ Thank you for considering contributing to Patlabor API
 
 In any case, feel free to create [a new issue](https://github.com/lmendev/patlabor-api/issues) with detailed explanation please!
 
-## Contact me
-Let me know about the cool projects you develop with Patlabor API 😄
+## Used technologies
 
-- Follow me on Twitter, I usually share development stuff <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/Lmendev?style=social"> 
-- Did you use or see the project? Share with me your feedback! <a href="https://twitter.com/intent/tweet?text=Hi! @Lmendev I just saw your project &url=https%3A%2F%2Fgithub.com%2FLmendev%2FPatlabor-api"><img alt="Twitter" src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FLmendev"></a>
+- PHP
+- Laravel
+
+## Software requirements
+
+- GIT
+- PHP
+- MySQL
+- Composer
+
+## Installation
+
+* `git clone https://github.com/lmendev/patlabor-api`
+* `cd patlabor-api`
+* `composer install`
+* Generate your application encryption key using `php artisan key:generate`
+* Copy and rename .env.example file to .env
+* Create a database named *patlabor_api* and inform to *.env* file
+* `php artisan migrate --seed` to create and populate tables
+* `php artisan serve` to start the app on http://localhost:8000/
+* Check everything is OK accessing on http://localhost:8000/api/v1/characters/1
+
 
 ## Sources
 Information gathered from various resources:
