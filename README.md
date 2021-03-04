@@ -74,7 +74,6 @@ In any case, feel free to create [a new issue](https://github.com/lmendev/patlab
 
 - GIT
 - PHP
-- MySQL
 - Composer
 
 ## Installation
