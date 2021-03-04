@@ -70,11 +70,6 @@ Thank you for considering contributing to Patlabor API
 
 In any case, feel free to create [a new issue](https://github.com/lmendev/patlabor-api/issues) with detailed explanation please!
 
-## Used technologies
-
-- PHP
-- Laravel
-
 ## Software requirements
 
 - GIT
