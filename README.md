@@ -1,7 +1,7 @@
 <h1 align="center">Patlabor API</h1>
 
 <p align="center">
-An API with information of Mobile Police Patlabor 🤖
+API with information of Mobile Police Patlabor 🤖
 <img src=".assets/patlabor_banner.webp" alt="Patlabor banner">
 </p>
 
