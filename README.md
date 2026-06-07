@@ -13,9 +13,13 @@ API with information of Mobile Police Patlabor 🤖
 
 This project aims to provide information and images of the anime Mobile Police Patlabor.
 
+このプロジェクトは、機動警察パトレイバーの情報と画像を提供することを目的としています。
+
 ## What is an API?
 
 An API (Application Programming Interface) is a contract that allow developers to interact with an application through a set of interfaces. In this case, the application is a database with patlabor-anime information, and the interfaces are URL links. A RESTful API is an API that conforms to a set of loose conventions based on HTTP verbs, errors, and hyperlinks.
+
+API（Application Programming Interface：アプリケーション・プログラミング・インターフェース）とは、開発者が一連のインターフェースを通じてアプリケーションとやり取りするための取り決めです。この場合、アプリケーションとはパトレイバーアニメの情報を格納したデータベースであり、インターフェースとはURLリンクのことを指します。RESTful APIとは、HTTPメソッド、エラー、およびハイパーリンクに基づく一連の緩やかな規約に従ったAPIのことです。
 
 ## Try the project
 
@@ -57,6 +61,8 @@ Result:
 ## Contact me
 Let me know about the cool projects you develop with Patlabor API 😄
 
+パトレイバーAPIを使って開発しているクールなプロジェクトを教えてください。
+
 - Follow me on Twitter, I usually share development stuff <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/Lmendev?style=social"> 
 - Did you use or see the project? Share with me your feedback! <a href="https://twitter.com/intent/tweet?text=Hi! @Lmendev I just saw your project &url=https%3A%2F%2Fgithub.com%2FLmendev%2FPatlabor-api"><img alt="Twitter" src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FLmendev"></a>
 
@@ -69,6 +75,16 @@ Thank you for considering contributing to Patlabor API
 - Reporting bugs 
 
 In any case, feel free to create [a new issue](https://github.com/lmendev/patlabor-api/issues) with detailed explanation please!
+
+
+Patlabor API への貢献をご検討いただき、ありがとうございます。
+
+- まだ追加されていないキャラクターやレイバーに関する情報を提供することで、プロジェクトに貢献できます。
+- また、プロジェクト、コード、エンドポイントなどに関する改善提案を行うことでも貢献できます。
+- バグの報告
+
+いずれの場合でも、ぜひ詳細な説明を添えて[新しいIssue](https://github.com/lmendev/patlabor-api/issues)を作成してください。
+
 
 ## Software requirements
 
@@ -89,8 +105,22 @@ In any case, feel free to create [a new issue](https://github.com/lmendev/patlab
 * Check everything is OK accessing on http://localhost:8000/api/v1/characters/1
 
 
+* `git clone https://github.com/lmendev/patlabor-api`
+* `cd patlabor-api`
+* `composer install`
+* `php artisan key:generate`を実行してアプリケーションの暗号化キーを生成します。
+* .env.example ファイルをコピーして .env にリネームします。
+* patlabor_api という名前のデータベースを作成し、その情報を .env ファイルに設定します。
+* `php artisan migrate --seed` を実行してテーブルを作成し、初期データを投入します。
+* `php artisan serve` を実行して、http://localhost:8000/ でアプリケーションを起動します。
+* http://localhost:8000/api/v1/characters/1 にアクセスし、正常に動作していることを確認します。
+
+
+
 ## Sources
 Information gathered from various resources:
+
+原典は以下から収集しました。
 
 - [Anidb](https://anidb.net)
 - [Wikipedia Japan](https://ja.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E8%AD%A6%E5%AF%9F%E3%83%91%E3%83%88%E3%83%AC%E3%82%A4%E3%83%90%E3%83%BC%E3%81%AE%E7%99%BB%E5%A0%B4%E4%BA%BA%E7%89%A9#.E7.89.B9.E8.BB.8A.E4.BA.8C.E8.AA.B2_.E7.AC.AC.E4.BA.8C.E5.B0.8F.E9.9A.8A) 
@@ -108,3 +138,9 @@ The story of Patlabor, images and designs are copyrighted material. This is a fa
 All images are copyright of their respective owners. ©1988 - 1994, 2002, 2014 - 2016 Headgear/Emotion/Bandai Visual/TFC/Shogakukan/NTV/Production I.G./Akemi Takada/Masami Yuuki/The Next Generation - Patlabor - Production Committee/Khara. All other logos/trademarks are copyright of their respective owners/companies. Images on this project are used for review and illustration purposes only.
 
 Patlabor API is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+『機動警察パトレイバー』のストーリー、画像、およびデザインは著作権によって保護されています。本プロジェクトはファンによって制作されたものであり、いかなる著作権侵害も意図していません。パトレイバーに関する画像やあらすじは、他のファンのための情報提供、レビュー、および研究目的にのみ使用されており、営利目的で利用されることは一切ありません。
+
+すべての画像の著作権は、それぞれの権利者に帰属します。©1988–1994, 2002, 2014–2016 Headgear/Emotion/Bandai Visual/TFC/Shogakukan/NTV/Production I.G./Akemi Takada/Masami Yuuki/The Next Generation - Patlabor - Production Committee/Khara。その他すべてのロゴおよび商標の著作権・権利は、それぞれの所有者または企業に帰属します。本プロジェクト内の画像は、レビューおよび説明目的でのみ使用されています。
+
+Patlabor API は、[MITライセンス](https://opensource.org/licenses/MIT)の下で公開されているオープンソースソフトウェアです。
