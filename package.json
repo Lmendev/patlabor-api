@@ -5,12 +5,14 @@
   "packageManager": "pnpm@12.14.0",
   "scripts": {
     "dev": "wrangler dev",
-    "deploy": "wrangler deploy --minify"
+    "deploy": "wrangler deploy --minify",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "hono": "^4.13.13"
   },
   "devDependencies": {
+    "typescript": "^5.9.3",
     "wrangler": "^4.110.0"
   }
 }
