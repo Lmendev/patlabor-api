@@ -13,6 +13,8 @@ API with information of Mobile Police Patlabor 🤖
 
 This project aims to provide information and images of the anime Mobile Police Patlabor.
 
+It is built with [Hono](https://hono.dev/) and runs on [Cloudflare Workers](https://workers.cloudflare.com/).
+
 ## What is an API?
 
 An API (Application Programming Interface) is a contract that allow developers to interact with an application through a set of interfaces. In this case, the application is a database with patlabor-anime information, and the interfaces are URL links. A RESTful API is an API that conforms to a set of loose conventions based on HTTP verbs, errors, and hyperlinks.
@@ -21,38 +23,50 @@ An API (Application Programming Interface) is a contract that allow developers t
 
 Get Character 1 information:
 
-https://patlabor-api.herokuapp.com/api/v1/characters/1
+https://patlabor-api.lmendev.workers.dev/api/v1/characters/1
 
 Result:
 
 ```json
 {
-    "id": 1,
-    "name": "Noa Izumi",
-    "age": null,
-    "birthplace": "Tomakomai, Hokkaido, Japan",
-    "nationality": "Japanese",
-    "gender": "female",
-    "occupation": "Labors pilot",
-    "rank": "officer",
-    "affiliation": "Section 2 Division 2 Team 1",
-    "image": "https://patlabor-api.herokuapp.com/images/characters/1.jpg",
-    "description": "Noa is somewhat impulsive, albeit not nearly as much as Ohta... "
+  "id": 1,
+  "name": "Noa Izumi",
+  "age": null,
+  "birthplace": "Tomakomai, Hokkaido, Japan",
+  "nationality": "Japanese",
+  "gender": "female",
+  "occupation": "labors pilot",
+  "rank": "officer",
+  "affiliation": "Section 2 Division 2 Team 1",
+  "image": "https://patlabor-api.lmendev.workers.dev/images/characters/1.jpg",
+  "description": "Noa is somewhat impulsive, albeit not nearly as much as Ohta... "
 }
 ```
 
 ## Routes
 
-| END POINT        | HTTP METHOD GET     |
-| -----------      | ---------------     |
-| /characters      | List all Characters |
-| /characters/{id} | Show Character      |
-| /labors          | List all Labors     |
-| /labors/{id}     | Show Labor          |
+| END POINT               | HTTP METHOD GET     |
+| ----------------------- | ------------------- |
+| /api/v1                 | List the resources  |
+| /api/v1/characters      | List all Characters |
+| /api/v1/characters/{id} | Show Character      |
+| /api/v1/labors          | List all Labors     |
+| /api/v1/labors/{id}     | Show Labor          |
+
+If the id does not exist, the API answers with status 404 and `{"error": "Resource not found"}`.
+
+The root URL redirects to `/api/v1`.
 
 ## Usage
 
-[to edit...]
+The API accepts requests from any website, so you can call it from the browser:
+
+```js
+const response = await fetch('https://patlabor-api.lmendev.workers.dev/api/v1/labors/1')
+const labor = await response.json()
+
+console.log(labor.name) // Ingram AV-98
+```
 
 ## Contact me
 Let me know about the cool projects you develop with Patlabor API 😄
@@ -70,24 +84,31 @@ Thank you for considering contributing to Patlabor API
 
 In any case, feel free to create [a new issue](https://github.com/lmendev/patlabor-api/issues) with detailed explanation please!
 
+### Adding a character or a labor
+
+The data lives in two files: `src/data/characters.json` and `src/data/labors.json`.
+
+1. Add a new object at the end of the file, with the next `id` and the same fields as the others. Use `null` for anything you don't know.
+2. Save its image as `public/images/characters/{id}.jpg` (or `public/images/labors/{id}.jpg`) and set `"image"` to the same path without `public`, for example `"/images/characters/13.jpg"`.
+3. Start the project and check the new item at http://localhost:8787/api/v1/characters/13.
+
 ## Software requirements
 
-- GIT
-- PHP
-- Composer
+- Git
+- Node.js 22.13 or later
+- [pnpm](https://pnpm.io/installation)
 
 ## Installation
 
 * `git clone https://github.com/lmendev/patlabor-api`
 * `cd patlabor-api`
-* `composer install`
-* Generate your application encryption key using `php artisan key:generate`
-* Copy and rename .env.example file to .env
-* Create a database named *patlabor_api* and inform to *.env* file
-* `php artisan migrate --seed` to create and populate tables
-* `php artisan serve` to start the app on http://localhost:8000/
-* Check everything is OK accessing on http://localhost:8000/api/v1/characters/1
+* `pnpm install`
+* `pnpm run dev` to start the app on http://localhost:8787/
+* Check everything is OK accessing on http://localhost:8787/api/v1/characters/1
 
+## Deploy
+
+`pnpm run deploy` publishes the API to Cloudflare Workers. The first time, it asks you to log in to your Cloudflare account. Keep the `run`: `pnpm deploy` is a different, built-in pnpm command.
 
 ## Sources
 Information gathered from various resources:
