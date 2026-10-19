@@ -1,0 +1,4 @@
+# pnpm blocks install scripts by default; wrangler needs these two to run theirs.
+allowBuilds:
+  esbuild: true
+  workerd: true
