@@ -24,4 +24,9 @@ app.route('/api/v1', v1)
 // Unknown routes and ids get the same answer as in the Laravel version.
 app.notFound((c) => c.json({ error: 'Resource not found' }, 404))
 
+app.onError((err, c) => {
+  console.error(err)
+  return c.json({ error: 'Internal server error' }, 500)
+})
+
 export default app
