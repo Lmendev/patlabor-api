@@ -1,9 +1,14 @@
 import { Hono } from 'hono'
 import { cors } from 'hono/cors'
+import { secureHeaders } from 'hono/secure-headers'
 import { trimTrailingSlash } from 'hono/trailing-slash'
 import v1 from './routes/v1'
 
+const publicApiSecureHeaders = { crossOriginResourcePolicy: 'cross-origin' }
+
 const app = new Hono()
+
+app.use(secureHeaders(publicApiSecureHeaders))
 
 // Lets any website call the API from the browser.
 app.use('/api/*', cors())
