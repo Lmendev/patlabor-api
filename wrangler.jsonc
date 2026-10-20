@@ -4,8 +4,7 @@
   "main": "src/index.ts",
   "compatibility_date": "2026-07-01",
   "preview_urls": false,
-  // The home page and the images in public/ are served as they are,
-  // without running the Worker.
+  // The images in public/ are served as they are, without running the Worker.
   "assets": {
     "directory": "./public"
   }
