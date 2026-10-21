@@ -1,6 +1,6 @@
 import { Hono } from 'hono'
 import labors from '../../data/labors.json'
-import { withImageUrl } from '../../lib/url'
+import { withImageUrl } from '../../lib/image-url'
 
 const app = new Hono()
   .get('/', (c) => c.json(labors.map((labor) => withImageUrl(labor, c.req.url))))

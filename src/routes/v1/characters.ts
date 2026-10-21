@@ -1,6 +1,6 @@
 import { Hono } from 'hono'
 import characters from '../../data/characters.json'
-import { withImageUrl } from '../../lib/url'
+import { withImageUrl } from '../../lib/image-url'
 
 const app = new Hono()
   .get('/', (c) => c.json(characters.map((character) => withImageUrl(character, c.req.url))))
