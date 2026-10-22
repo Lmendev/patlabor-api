@@ -1,13 +1,11 @@
 <h1 align="center">Patlabor API</h1>
 
 <p align="center">
-API with information of Mobile Police Patlabor 🤖
+API with information about Mobile Police Patlabor 🤖
 <img src=".assets/patlabor_banner.webp" alt="Patlabor banner">
 </p>
 
-## About
-
-This project provides information and images of the anime Mobile Police Patlabor. It is built with [Hono](https://hono.dev/) and runs on [Cloudflare Workers](https://workers.cloudflare.com/).
+Built with [Hono](https://hono.dev/) and running on [Cloudflare Workers](https://workers.cloudflare.com/).
 
 ## Usage
 
@@ -38,15 +36,15 @@ Result:
 
 ## Routes
 
-| END POINT               | HTTP METHOD GET     |
+| Endpoint                | Description         |
 | ----------------------- | ------------------- |
 | /api/v1                 | List the resources  |
-| /api/v1/characters      | List all Characters |
-| /api/v1/characters/{id} | Show Character      |
-| /api/v1/labors          | List all Labors     |
-| /api/v1/labors/{id}     | Show Labor          |
+| /api/v1/characters      | List all characters |
+| /api/v1/characters/{id} | Show a character    |
+| /api/v1/labors          | List all labors     |
+| /api/v1/labors/{id}     | Show a labor        |
 
-If the id does not exist, the API answers with status 404 and `{"error": "Resource not found"}`.
+All endpoints use GET. If the id does not exist, the API answers with status 404 and `{"error": "Resource not found"}`.
 
 ## Contributing
 
@@ -55,18 +53,18 @@ Want to add a character, a labor or an improvement? Read the [contributing guide
 ## Sources
 Information gathered from various resources:
 
-- [Anidb](https://anidb.net)
-- [Wikipedia Japan](https://ja.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E8%AD%A6%E5%AF%9F%E3%83%91%E3%83%88%E3%83%AC%E3%82%A4%E3%83%90%E3%83%BC%E3%81%AE%E7%99%BB%E5%A0%B4%E4%BA%BA%E7%89%A9#.E7.89.B9.E8.BB.8A.E4.BA.8C.E8.AA.B2_.E7.AC.AC.E4.BA.8C.E5.B0.8F.E9.9A.8A) 
-- [Wikipedia USA](https://en.wikipedia.org/wiki/List_of_Patlabor_characters#Section_2_Division_2)
-- [patlabormechanime.fandom](https://patlabormechanime.fandom.com/es/wiki/Mikiyasu_Shinshi)
+- [AniDB](https://anidb.net)
+- [Wikipedia (Japanese)](https://ja.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E8%AD%A6%E5%AF%9F%E3%83%91%E3%83%88%E3%83%AC%E3%82%A4%E3%83%90%E3%83%BC%E3%81%AE%E7%99%BB%E5%A0%B4%E4%BA%BA%E7%89%A9)
+- [Wikipedia (English)](https://en.wikipedia.org/wiki/List_of_Patlabor_characters)
+- [patlabormechanime.fandom](https://patlabormechanime.fandom.com/es)
 - [patlabor.fandom](https://patlabor.fandom.com/)
-- [myanimelist](https://myanimelist.net/)
-- [patlabor.info](http://www.patlabor.info/)
-- [animenewsnetwork](http://www.animenewsnetwork.com/search?q=patlabor)
+- [MyAnimeList](https://myanimelist.net/)
+- [patlabor.info](https://www.patlabor.info/)
+- [Anime News Network](https://www.animenewsnetwork.com/)
 
 ## License
 
-The story of Patlabor, images and designs are copyrighted material. This is a fan made project and is not intended to infringe on any copyrighted material. Images and synopses of Patlabor material is intended to be used for information, review and research purposes only for other fans and is in no way used for profit.
+The story of Patlabor, images and designs are copyrighted material. This is a fan-made project and is not intended to infringe on any copyrighted material. Images and synopses of Patlabor material are intended to be used for information, review and research purposes only for other fans and are in no way used for profit.
 
 All images are copyright of their respective owners. ©1988 - 1994, 2002, 2014 - 2016 Headgear/Emotion/Bandai Visual/TFC/Shogakukan/NTV/Production I.G./Akemi Takada/Masami Yuuki/The Next Generation - Patlabor - Production Committee/Khara. All other logos/trademarks are copyright of their respective owners/companies. Images on this project are used for review and illustration purposes only.
 
