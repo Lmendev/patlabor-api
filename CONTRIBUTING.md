@@ -13,8 +13,18 @@ In any case, feel free to create [a new issue](https://github.com/lmendev/patlab
 The data lives in two files: `src/data/characters.json` and `src/data/labors.json`.
 
 1. Add a new object at the end of the file, with the next `id` and the same fields as the others. Use `null` for anything you don't know.
-2. Save its image as `public/images/characters/{id}.jpg` (or `public/images/labors/{id}.jpg`) and set `"image"` to the same path without `public`, for example `"/images/characters/13.jpg"`.
-3. Start the project and check the new item at http://localhost:8787/api/v1/characters/13.
+2. Save its image as `public/images/characters/{id}.jpg` (or `public/images/labors/{id}.jpg`) and set `"image"` to the same path without `public`, for example `"/images/characters/28.jpg"`. If there is no image yet, leave `"image": null`.
+3. Start the project and check the new item at http://localhost:8787/api/v1/characters/28.
+
+### Data formats
+
+- `age` is the character's age in the original TV series, and `birth_date` uses `YYYY-MM-DD`.
+- `rank` is the police or military rank in lowercase (`officer`, `sergeant`, `assistant inspector`…), and `occupation` is the role, for example `Unit 1 pilot`.
+- `release_date` uses `YYYY-MM`, or `YYYY` when only the year is known.
+- Sizes are in meters and weights in tonnes, written with the unit: `"8.02 m"`, `"6.00 t"`.
+- `armour_materials` and the equipment fields are arrays of strings.
+- `pilots` is an array of character ids. The API returns it as links to the characters, and gives each character the links to the labors they pilot.
+- Please mention your source in the pull request, so the data can be checked.
 
 ## Development
 
