@@ -2,6 +2,7 @@
   {
     "id": 1,
     "name": "Noa Izumi",
+    "japanese_name": "泉 野明",
     "age": 20,
     "birth_date": "1978-12-17",
     "birthplace": "Tomakomai, Hokkaido, Japan",
@@ -16,6 +17,7 @@
   {
     "id": 2,
     "name": "Asuma Shinohara",
+    "japanese_name": "篠原 遊馬",
     "age": 21,
     "birth_date": null,
     "birthplace": "Maebashi, Gunma, Japan",
@@ -30,6 +32,7 @@
   {
     "id": 3,
     "name": "Kiichi Goto",
+    "japanese_name": "後藤 喜一",
     "age": null,
     "birth_date": null,
     "birthplace": "Taito, Tokyo, Japan",
@@ -44,6 +47,7 @@
   {
     "id": 4,
     "name": "Isao Ohta",
+    "japanese_name": "太田 功",
     "age": 26,
     "birth_date": null,
     "birthplace": "Kamaishi, Iwate, Japan",
@@ -58,6 +62,7 @@
   {
     "id": 5,
     "name": "Kanuka Clancy",
+    "japanese_name": "香貫花・クランシー",
     "age": 21,
     "birth_date": null,
     "birthplace": "Honolulu, Hawaii, United States",
@@ -72,6 +77,7 @@
   {
     "id": 6,
     "name": "Hiromi Yamazaki",
+    "japanese_name": "山崎 ひろみ",
     "age": 23,
     "birth_date": null,
     "birthplace": "Ishigaki Island, Okinawa, Japan",
@@ -86,6 +92,7 @@
   {
     "id": 7,
     "name": "Takeo Kumagami",
+    "japanese_name": "熊耳 武緒",
     "age": null,
     "birth_date": null,
     "birthplace": "Nishinomiya, Hyogo, Japan",
@@ -100,6 +107,7 @@
   {
     "id": 8,
     "name": "Mikiyasu Shinshi",
+    "japanese_name": "進士 幹泰",
     "age": 29,
     "birth_date": null,
     "birthplace": "Fujieda, Shizuoka, Japan",
@@ -114,6 +122,7 @@
   {
     "id": 9,
     "name": "Shinobu Nagumo",
+    "japanese_name": "南雲 しのぶ",
     "age": null,
     "birth_date": null,
     "birthplace": "Setagaya, Tokyo, Japan",
@@ -128,6 +137,7 @@
   {
     "id": 10,
     "name": "Tsutomu Gomioka",
+    "japanese_name": "五味丘 務",
     "age": null,
     "birth_date": null,
     "birthplace": null,
@@ -142,6 +152,7 @@
   {
     "id": 11,
     "name": "Seitaroh Sakaki",
+    "japanese_name": "榊 清太郎",
     "age": null,
     "birth_date": null,
     "birthplace": "Hiratsuka, Kanagawa, Japan",
@@ -156,6 +167,7 @@
   {
     "id": 12,
     "name": "Shigeo Shiba",
+    "japanese_name": "斯波 繁男",
     "age": null,
     "birth_date": null,
     "birthplace": "Matsudo, Chiba, Japan",
