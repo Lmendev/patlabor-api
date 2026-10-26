@@ -263,5 +263,187 @@
     "pilots": null,
     "image": "/images/labors/10.jpg",
     "description": "Training Labor seen only in 'Patlabor 2 the movie'"
+  },
+  {
+    "id": 11,
+    "name": "SRX-70",
+    "unit_type": "Prototype Police Patrol Labor",
+    "release_date": null,
+    "manufacturer": "SEJ, sold by Toyohata Auto",
+    "height": "7.90 m",
+    "width": "4.40 m",
+    "standard_weight": "5.90 t",
+    "full_equipment_weight": "6.15 t",
+    "maximum_weight_lifting_capacity": "2.85 t",
+    "armour_materials": [
+      "Fiber-reinforced plastic"
+    ],
+    "standard_equipment": [
+      "42mm autocannon",
+      "20mm Vulcan cannon"
+    ],
+    "optional_equipment": null,
+    "minimum_revolving_radius": "4.00 m",
+    "affiliation": "Tokyo Metropolitan Police",
+    "pilots": [
+      10
+    ],
+    "image": null,
+    "description": "A prototype offered to Division 1 as the Python's replacement in the TV series. Its heavy weapons were meant to gather combat data for military labors, and Nagumo blocks its adoption. It is later sold for private security as the Saturn."
+  },
+  {
+    "id": 12,
+    "name": "Type-J9 Griffon",
+    "unit_type": "Experimental Combat Labor",
+    "release_date": null,
+    "manufacturer": "Shaft Enterprises Japan, Tsuchiura Laboratory",
+    "height": "8.55 m",
+    "width": "4.60 m",
+    "standard_weight": "7.15 t",
+    "full_equipment_weight": "7.60 t",
+    "maximum_weight_lifting_capacity": "3.50 t",
+    "armour_materials": [
+      "Fiber-reinforced plastic",
+      "Carbon fiber-reinforced metal"
+    ],
+    "standard_equipment": null,
+    "optional_equipment": [
+      "Flight unit",
+      "Aqua unit"
+    ],
+    "minimum_revolving_radius": "4.30 m",
+    "affiliation": "Shaft Enterprises Japan",
+    "pilots": [
+      17
+    ],
+    "image": null,
+    "description": "The \"black labor\", built in secret by Shaft's Planning Section 7 to outperform every existing labor. Piloted by Bud, it is Section 2's greatest rival in the manga, the TV series and the second OVA series."
+  },
+  {
+    "id": 13,
+    "name": "Type-7 Brocken",
+    "unit_type": "Military Labor",
+    "release_date": null,
+    "manufacturer": "Shaft Enterprises Europe",
+    "height": "8.68 m",
+    "width": "4.69 m",
+    "standard_weight": "8.23 t",
+    "full_equipment_weight": "8.92 t",
+    "maximum_weight_lifting_capacity": "4.00 t",
+    "armour_materials": [
+      "Reinforced steel composite"
+    ],
+    "standard_equipment": [
+      "105mm cannon",
+      "40mm rapid-fire cannon",
+      "Smoke discharger",
+      "TOW missile launcher"
+    ],
+    "optional_equipment": null,
+    "minimum_revolving_radius": "6.20 m",
+    "affiliation": "NATO forces and the West German army",
+    "pilots": null,
+    "image": null,
+    "description": "A heavily armed and armoured military labor used for border defense. According to Utsumi, its software is behind the Ingram's but its hardware is superior."
+  },
+  {
+    "id": 14,
+    "name": "ARL-99 Hel-Diver",
+    "unit_type": "Military Airborne Labor",
+    "release_date": null,
+    "manufacturer": "Shinohara Heavy Industries, Hachioji Factory",
+    "height": "7.95 m",
+    "width": "4.55 m",
+    "standard_weight": "5.75 t",
+    "full_equipment_weight": "6.81 t",
+    "maximum_weight_lifting_capacity": "3.10 t",
+    "armour_materials": [
+      "Fiber-reinforced metal",
+      "Carbon fiber-reinforced plastic"
+    ],
+    "standard_equipment": [
+      "40mm rapid-fire gun",
+      "Combat knife",
+      "Type 99 automatic cannon",
+      "TOW missile launcher",
+      "Smoke discharger"
+    ],
+    "optional_equipment": null,
+    "minimum_revolving_radius": "3.90 m",
+    "affiliation": "Japan Ground Self-Defense Force Mechanized Airborne Division",
+    "pilots": [
+      27
+    ],
+    "image": null,
+    "description": "The Ground Self-Defense Force's Type 99 airborne labor. Developed alongside the Ingram and sharing its basic frame, it is more agile and versatile than the earlier military labors it replaced."
+  },
+  {
+    "id": 15,
+    "name": "HL-96 Tyrant 2000",
+    "unit_type": "Heavy Construction Labor",
+    "release_date": "1996",
+    "manufacturer": "Hishii Industries",
+    "height": "8.02 m",
+    "width": "4.72 m",
+    "standard_weight": "12.03 t",
+    "full_equipment_weight": "12.65 t",
+    "maximum_weight_lifting_capacity": "3.70 t",
+    "armour_materials": [
+      "Fiber-reinforced metal"
+    ],
+    "standard_equipment": null,
+    "optional_equipment": null,
+    "minimum_revolving_radius": "7.80 m",
+    "affiliation": null,
+    "pilots": null,
+    "image": null,
+    "description": "A heavy construction labor that looks like a walking bulldozer with arms. Powerful but slow, it was a best seller that established Hishii in the labor industry, and it appears in almost every Patlabor series."
+  },
+  {
+    "id": 16,
+    "name": "HL-98 Hercules 21",
+    "unit_type": "Heavy Construction Labor",
+    "release_date": null,
+    "manufacturer": "Hishii Industries",
+    "height": "7.45 m",
+    "width": "5.12 m",
+    "standard_weight": "7.89 t",
+    "full_equipment_weight": "8.22 t",
+    "maximum_weight_lifting_capacity": "2.90 t",
+    "armour_materials": [
+      "Fiber-reinforced plastic",
+      "Aluminium"
+    ],
+    "standard_equipment": null,
+    "optional_equipment": null,
+    "minimum_revolving_radius": "5.50 m",
+    "affiliation": null,
+    "pilots": null,
+    "image": null,
+    "description": "A heavy construction labor that succeeds the Bulldog. It is more human-shaped and dexterous than the Tyrant, has a sealed cockpit and a periscope snorkel that lets it work underwater."
+  },
+  {
+    "id": 17,
+    "name": "TFV-97 Crabman",
+    "unit_type": "Land Leveling Labor",
+    "release_date": null,
+    "manufacturer": "Shinohara Heavy Industries",
+    "height": "6.14 m",
+    "width": "3.70 m",
+    "standard_weight": "9.06 t",
+    "full_equipment_weight": "10.01 t",
+    "maximum_weight_lifting_capacity": "15.00 t",
+    "armour_materials": [
+      "Carbon fiber-reinforced plastic",
+      "Fiber-reinforced metal",
+      "Fiber-reinforced ceramic"
+    ],
+    "standard_equipment": null,
+    "optional_equipment": null,
+    "minimum_revolving_radius": "5.00 m",
+    "affiliation": null,
+    "pilots": null,
+    "image": null,
+    "description": "A four-legged land leveling labor whose legs double as arms. Wheels in its feet let it move fast on roads, and it can keep walking even after losing a leg."
   }
 ]
