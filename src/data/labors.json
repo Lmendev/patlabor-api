@@ -10,9 +10,20 @@
     "standard_weight": "6.00 t",
     "full_equipment_weight": "6.62 t",
     "maximum_weight_lifting_capacity": "2.40 t",
-    "armour_materials": null,
-    "standard_equipment": null,
-    "optional_equipment": null,
+    "armour_materials": [
+      "Fiber-reinforced metal",
+      "Carbon fiber-reinforced plastic"
+    ],
+    "standard_equipment": [
+      "37mm revolver cannon",
+      "Stun stick",
+      "Shield",
+      "Winch"
+    ],
+    "optional_equipment": [
+      "90mm riot gun",
+      "Reactive armor"
+    ],
     "minimum_revolving_radius": "3.90 m",
     "affiliation": "Section 2 Division 2",
     "image": "/images/labors/1.jpg",
@@ -29,8 +40,15 @@
     "standard_weight": "6.08 t",
     "full_equipment_weight": "6.89 t",
     "maximum_weight_lifting_capacity": "1.20 t",
-    "armour_materials": null,
-    "standard_equipment": null,
+    "armour_materials": [
+      "Reinforced steel"
+    ],
+    "standard_equipment": [
+      "Stun stick",
+      "Smoke grenades",
+      "Flares",
+      "Tear gas grenades"
+    ],
     "optional_equipment": null,
     "minimum_revolving_radius": "5.20 m",
     "affiliation": "Section 2",
@@ -48,8 +66,14 @@
     "standard_weight": "6.12 t",
     "full_equipment_weight": "6.98 t",
     "maximum_weight_lifting_capacity": "3.20 t",
-    "armour_materials": null,
-    "standard_equipment": null,
+    "armour_materials": [
+      "Carbon fiber-reinforced metal",
+      "Carbon fiber-reinforced plastic"
+    ],
+    "standard_equipment": [
+      "Large shield",
+      "Stun stick"
+    ],
     "optional_equipment": null,
     "minimum_revolving_radius": "3.20 m",
     "affiliation": "Section 2",
@@ -67,8 +91,13 @@
     "standard_weight": "7.25 t",
     "full_equipment_weight": "7.85 t",
     "maximum_weight_lifting_capacity": "2.60 t",
-    "armour_materials": null,
-    "standard_equipment": null,
+    "armour_materials": [
+      "Reinforced steel"
+    ],
+    "standard_equipment": [
+      "Stun stick",
+      "Shield"
+    ],
     "optional_equipment": null,
     "minimum_revolving_radius": "5.90 m",
     "affiliation": "Section 2 Division 1",
@@ -86,8 +115,15 @@
     "standard_weight": "6.10 t",
     "full_equipment_weight": "7.00 t",
     "maximum_weight_lifting_capacity": "2.80 t",
-    "armour_materials": null,
-    "standard_equipment": null,
+    "armour_materials": [
+      "Fiber-reinforced plastic",
+      "Carbon fiber-reinforced metal"
+    ],
+    "standard_equipment": [
+      "37mm revolver cannon",
+      "Shield",
+      "Stun stick"
+    ],
     "optional_equipment": null,
     "minimum_revolving_radius": "3.00 m",
     "affiliation": "Section 2 Division 1",
@@ -106,7 +142,11 @@
     "full_equipment_weight": null,
     "maximum_weight_lifting_capacity": null,
     "armour_materials": null,
-    "standard_equipment": null,
+    "standard_equipment": [
+      "37mm revolver cannon",
+      "Shield",
+      "Knuckle guard"
+    ],
     "optional_equipment": null,
     "minimum_revolving_radius": null,
     "affiliation": "Section 2",
@@ -143,7 +183,10 @@
     "standard_weight": null,
     "full_equipment_weight": "5.35 t",
     "maximum_weight_lifting_capacity": null,
-    "armour_materials": null,
+    "armour_materials": [
+      "Reinforced steel",
+      "Fiber-reinforced plastic"
+    ],
     "standard_equipment": null,
     "optional_equipment": null,
     "minimum_revolving_radius": null,
@@ -162,8 +205,15 @@
     "standard_weight": null,
     "full_equipment_weight": "5.50 t",
     "maximum_weight_lifting_capacity": null,
-    "armour_materials": null,
-    "standard_equipment": null,
+    "armour_materials": [
+      "Reinforced steel",
+      "Fiber-reinforced plastic"
+    ],
+    "standard_equipment": [
+      "Stun stick",
+      "Shield",
+      "Paint gun"
+    ],
     "optional_equipment": null,
     "minimum_revolving_radius": null,
     "affiliation": "Tokyo Metropolitan Police",
@@ -182,7 +232,12 @@
     "full_equipment_weight": null,
     "maximum_weight_lifting_capacity": null,
     "armour_materials": null,
-    "standard_equipment": null,
+    "standard_equipment": [
+      "Stun stick",
+      "Padded shield",
+      "Paint gun",
+      "Knuckle guard"
+    ],
     "optional_equipment": null,
     "minimum_revolving_radius": null,
     "affiliation": "Tokyo Metropolitan Police",
