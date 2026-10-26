@@ -1,104 +1,155 @@
 [
   {
     "id": 1,
-    "name": "Ingram AV-98",
+    "name": "AV-98 Ingram",
     "unit_type": "Police Patrol Labor",
-    "release_date": "April 1998",
+    "release_date": "1998-02",
     "manufacturer": "Shinohara Heavy Industries, Hachioji Factory",
-    "height": null,
-    "width": null,
-    "standard_weight": null,
-    "full_equipment_weight": null,
-    "maximum_weight_lifting_capacity": null,
-    "armour_materials": null,
-    "standard_equipment": null,
-    "optional_equipment": null,
-    "minimum_revolving_radius": null,
-    "affiliation": "Special vehicles section two",
+    "height": "8.02 m",
+    "width": "4.37 m",
+    "standard_weight": "6.00 t",
+    "full_equipment_weight": "6.62 t",
+    "maximum_weight_lifting_capacity": "2.40 t",
+    "armour_materials": [
+      "Fiber-reinforced metal",
+      "Carbon fiber-reinforced plastic"
+    ],
+    "standard_equipment": [
+      "37mm revolver cannon",
+      "Stun stick",
+      "Shield",
+      "Winch"
+    ],
+    "optional_equipment": [
+      "90mm riot gun",
+      "Reactive armor"
+    ],
+    "minimum_revolving_radius": "3.90 m",
+    "affiliation": "Section 2 Division 2",
+    "pilots": [
+      1,
+      4
+    ],
     "image": "/images/labors/1.jpg",
-    "description": "The Ingram AV-98 (AV stands for 'Advanced Vehicle') was developed specially for the police force to combat Labor crime. It is styled in a way to look menacing. The main unit comes with two weapons; an electric baton (or stun stick, a weapon that can stop Labors with high powered electric currents) which is stored under it's shield in it's left arm, and a 37mm revolver cannon, stored in it's left leg. A 90mm riot gun was also developed by the mechanics at the SV2 for the Ingram. The Second Division of the SV2 use these Labors. Ota's AV-98 (Unit 2) has a customised head which is very different to the standard issue. Unit 3 (the spare Labor) also has a customised head. In 'Patlabor 2 the movie', Unit 3 was developed as an experimental anti-electronic warfare Labor by Shinohara Heavy Industries, and it's head is equipped with ECM (Electronic Counter Measures) jamming pod."
+    "description": "The AV-98 Ingram (AV stands for 'Advanced Vehicle') was developed specially for the police force to combat labor crime. Its slim design is meant to look like a hero of justice and reassure the public. It carries a stun stick, stored under the shield on its left arm, and a 37mm revolver cannon, with spare rounds stored in its right leg. The mechanics of SV2 also built a 90mm riot gun for it. Division 2 of SV2 uses these labors. Ohta's Ingram (Unit 2) has a head that differs from the standard one, and so does Unit 3, the spare. In 'Patlabor 2: The Movie', Unit 3 is an experimental anti-electronic warfare labor with an ECM jamming pod on its head."
   },
   {
     "id": 2,
-    "name": "MPL-96 Askua-96",
+    "name": "ASUKA96MPL",
     "unit_type": "Police Patrol Labor",
-    "release_date": "October 1996",
-    "manufacturer": "Shinohara Heavy Industries, Hachioji Factory",
-    "height": null,
-    "width": null,
-    "standard_weight": null,
-    "full_equipment_weight": null,
-    "maximum_weight_lifting_capacity": null,
-    "armour_materials": null,
-    "standard_equipment": null,
+    "release_date": "1996-12",
+    "manufacturer": "Shinohara Heavy Industries, Tokorozawa Factory",
+    "height": "5.62 m",
+    "width": "4.32 m",
+    "standard_weight": "6.08 t",
+    "full_equipment_weight": "6.89 t",
+    "maximum_weight_lifting_capacity": "1.20 t",
+    "armour_materials": [
+      "Reinforced steel"
+    ],
+    "standard_equipment": [
+      "Stun stick",
+      "Smoke grenades",
+      "Flares",
+      "Tear gas grenades"
+    ],
     "optional_equipment": null,
-    "minimum_revolving_radius": null,
-    "affiliation": "Special vehicles section one",
+    "minimum_revolving_radius": "5.20 m",
+    "affiliation": "Section 2",
+    "pilots": [
+      4
+    ],
     "image": "/images/labors/2.jpg",
-    "description": "Based upon an old construction Labor, the Asuka-SSL-96 Taisyo. The term MPL stands for 'Main Police Labor'. This Labor was modified to create the first Patrol Labor. Though the only real modification was the addition of a light unit, police siren and a paint job. The first unit of the SV2 in the original OVA, and second unit in the first episode of the TV series used these Labors. They are fairly clunky and weren't much use against many criminal Labors."
+    "description": "The police version of the ASUKA95SSL 'Taisho' construction labor, released by Shinohara in October. MPL stands for 'Main Police Labor'. Its armour was reinforced at the cost of agility, and by the time it was delivered it was already no match for illegally modified criminal labors. It was the first labor of SV2: Division 1 used it in the original OVA, and Division 2 in the first episodes of the TV series."
   },
   {
     "id": 3,
-    "name": "AV-X0 (AV-2) Type X-0 'Zero'",
+    "name": "AV-X0 Type Zero",
     "unit_type": "Police Patrol Labor",
-    "release_date": "September 1999",
+    "release_date": "1999-09",
     "manufacturer": "Shinohara Heavy Industries, Hachioji Factory",
-    "height": null,
-    "width": null,
-    "standard_weight": null,
-    "full_equipment_weight": null,
-    "maximum_weight_lifting_capacity": null,
-    "armour_materials": null,
-    "standard_equipment": null,
+    "height": "8.32 m",
+    "width": "4.51 m",
+    "standard_weight": "6.12 t",
+    "full_equipment_weight": "6.98 t",
+    "maximum_weight_lifting_capacity": "3.20 t",
+    "armour_materials": [
+      "Carbon fiber-reinforced metal",
+      "Carbon fiber-reinforced plastic"
+    ],
+    "standard_equipment": [
+      "Large shield",
+      "Stun stick"
+    ],
     "optional_equipment": null,
-    "minimum_revolving_radius": null,
-    "affiliation": "Special vehicles section one",
+    "minimum_revolving_radius": "3.20 m",
+    "affiliation": "Section 2",
+    "pilots": [
+      9,
+      5
+    ],
     "image": "/images/labors/3.jpg",
-    "description": "Essentially the AV-98 Ingram on steroids, this Patrol Labor is much more stronger than the Ingram and can lift a small construction Labor up with one hand a break it in to two. This Labor was designed with hand to hand combat in mind. In 'Patlabor the movie', Kanuka Clancy pilots the Labor while it is infected with the Babel Virus. Shinohara have also produced a version for the New York Police Department called the AV-02 Clash Buster which comes with a 44mm cannon, but this Labor does not appear in the anime."
+    "description": "Essentially the AV-98 Ingram on steroids, this prototype is much stronger than the Ingram and can lift a construction labor with one hand and break it in two. It was designed for hand-to-hand combat and runs the new HOS operating system. In 'Patlabor: The Movie', Kanuka Clancy pilots it when the virus hidden in HOS makes it go berserk. Shinohara also produced a version for the New York Police Department called the AV-02 Clash Buster, which carries a 44mm cannon, but it does not appear in the anime."
   },
   {
     "id": 4,
     "name": "MPL-97S Python",
     "unit_type": "Police Patrol Labor",
-    "release_date": "November 1997",
+    "release_date": "1997-08",
     "manufacturer": "Manabe Heavy Industries",
-    "height": null,
-    "width": null,
-    "standard_weight": null,
-    "full_equipment_weight": null,
-    "maximum_weight_lifting_capacity": null,
-    "armour_materials": null,
-    "standard_equipment": null,
+    "height": "7.80 m",
+    "width": "4.85 m",
+    "standard_weight": "7.25 t",
+    "full_equipment_weight": "7.85 t",
+    "maximum_weight_lifting_capacity": "2.60 t",
+    "armour_materials": [
+      "Reinforced steel"
+    ],
+    "standard_equipment": [
+      "Stun stick",
+      "Shield"
+    ],
     "optional_equipment": null,
-    "minimum_revolving_radius": null,
-    "affiliation": "Special vehicles section one",
+    "minimum_revolving_radius": "5.90 m",
+    "affiliation": "Section 2 Division 1",
+    "pilots": [
+      10
+    ],
     "image": "/images/labors/4.jpg",
     "description": "Used by Division 1 in the TV series. This Labor may not be as good as the Ingram, but is still effective against most construction Labors. The term MPL stands for 'Main Police Labor'."
   },
   {
     "id": 5,
-    "name": "AV-0 Peacemaker (Zero)",
+    "name": "AV-0 Peacemaker",
     "unit_type": "Police Patrol Labor",
-    "release_date": "September 1999",
+    "release_date": "1999-10",
     "manufacturer": "Shinohara Heavy Industries, Hachioji Factory",
-    "height": null,
-    "width": null,
-    "standard_weight": null,
-    "full_equipment_weight": null,
-    "maximum_weight_lifting_capacity": null,
-    "armour_materials": null,
-    "standard_equipment": null,
+    "height": "8.20 m",
+    "width": "4.45 m",
+    "standard_weight": "6.10 t",
+    "full_equipment_weight": "7.00 t",
+    "maximum_weight_lifting_capacity": "2.80 t",
+    "armour_materials": [
+      "Fiber-reinforced plastic",
+      "Carbon fiber-reinforced metal"
+    ],
+    "standard_equipment": [
+      "37mm revolver cannon",
+      "Shield",
+      "Stun stick"
+    ],
     "optional_equipment": null,
-    "minimum_revolving_radius": null,
-    "affiliation": "Special vehicles section one",
+    "minimum_revolving_radius": "3.00 m",
+    "affiliation": "Section 2 Division 1",
+    "pilots": null,
     "image": "/images/labors/5.jpg",
-    "description": "The AV-0 is shinohara industries final variant of the 'Ingram', and is expected to be the replacement of the model. It has already replaced the 'Python' units of section one. It is equipped mainly with the same equipment as the 'Ingram', police equipment, however there are major changes in the softwere and engineering of the unit. It is equipped with a nervous system that enables the robot to operate even when the pilot has lost conscience as it learns the movements of its pilots and copies them perfectly. It is also stronger and faster than 'Ingram' as it is able to operate with more eficiency, although unlike the Ingram it relies more on its superior technology than the abilities pilot himself which can be seen as a weakness as well as a strength, for example the Peacemaker system prevents it from going into battle near a civilian building. It has however been proved that it is not a match for the 'Griffon' and it's confrontation with it ends with the Peacemaker units of section one badly damaged. It is also known that this model is going to be delivered to the NYPD for its police labor unit."
+    "description": "The AV-0 is Shinohara's final development of the Ingram line and its intended replacement. Three units replaced the Pythons of Division 1 in October 1999. It carries the same police equipment as the Ingram, but its software and engineering are far more advanced: it learns its pilot's movements and copies them, so it can keep operating even if the pilot loses consciousness. It is stronger and faster than the Ingram, but relies more on its technology than on its pilot, which is both a strength and a weakness. It proves no match for the Griffon, and the Division 1 units end that fight badly damaged. A version is also planned for the NYPD's labor unit."
   },
   {
     "id": 6,
-    "name": "AV-02 Variant",
+    "name": "AV-2 Valiant",
     "unit_type": "Police Patrol Labor",
-    "release_date": "2002",
+    "release_date": "2001",
     "manufacturer": "Shinohara Heavy Industries, Hachioji Factory",
     "height": null,
     "width": null,
@@ -106,17 +157,22 @@
     "full_equipment_weight": null,
     "maximum_weight_lifting_capacity": null,
     "armour_materials": null,
-    "standard_equipment": null,
+    "standard_equipment": [
+      "37mm revolver cannon",
+      "Shield",
+      "Knuckle guard"
+    ],
     "optional_equipment": null,
     "minimum_revolving_radius": null,
-    "affiliation": "Special vehicles section two",
+    "affiliation": "Section 2",
+    "pilots": null,
     "image": "/images/labors/6.jpg",
-    "description": "Very little is known about this model, due to its brief appearance. Judging from its design, this model appears to be based on the Ingram and the AV-X0 , with several functional enhancements added. Since it is the successor to the Ingram, it must be superior in some respects. The AV-02 Variant features a similar design, including the lights on its shoulders. It probably has good self-balance and a wide range of sensors located on its head."
+    "description": "The successor to the Ingram, seen in 'Patlabor 2: The Movie'. Six units were delivered when SV2 was reorganized in autumn 2001, three for each division. Its cockpit has a clear canopy and more room than the Ingram's, and pilots board through a rear hatch. It has a retractable speaker on its chest and retractable police lights on its shoulders. The Lehrer is its training version."
   },
   {
     "id": 7,
     "name": "Type 99 Road Runner",
-    "unit_type": "Traffic Control Work",
+    "unit_type": "Traffic Control Labor",
     "release_date": "2002",
     "manufacturer": "Shinohara Heavy Industries, Hachioji Factory",
     "height": null,
@@ -128,51 +184,64 @@
     "standard_equipment": null,
     "optional_equipment": null,
     "minimum_revolving_radius": null,
-    "affiliation": "Tokyo Metropolitan Police",
+    "affiliation": "Kanagawa Prefectural Police Traffic Unit",
+    "pilots": null,
     "image": "/images/labors/7.jpg",
-    "description": "It is a traffic control task that can overcome any traffic jam thanks to its wheels and extendable legs. In its vehicle mode it resembles a car. When the legs are extended it goes into Labor mode, in which it can literally ride on other vehicles and manipulate objects with its retractable arms."
+    "description": "The Type 99 wheeled labor of the Kanagawa Prefectural Police's traffic unit, seen in 'Patlabor 2: The Movie'. It moves on eight wheels instead of walking, and in its high-speed mode it looks like a futuristic patrol car. Its two-seat cockpit, for a driver and a commander, rests on extendable legs that let it step over traffic jams, and it has arms for handling objects."
   },
   {
     "id": 8,
-    "name": "MPL97AV-T (97-AV)",
+    "name": "MPL97AV-T",
     "unit_type": "Training Police Patrol Labor",
     "release_date": null,
     "manufacturer": "Shinohara Heavy Industries, Hachioji Factory",
-    "height": null,
-    "width": null,
+    "height": "7.51 m",
+    "width": "4.24 m",
     "standard_weight": null,
-    "full_equipment_weight": null,
+    "full_equipment_weight": "5.35 t",
     "maximum_weight_lifting_capacity": null,
-    "armour_materials": null,
+    "armour_materials": [
+      "Reinforced steel",
+      "Fiber-reinforced plastic"
+    ],
     "standard_equipment": null,
     "optional_equipment": null,
     "minimum_revolving_radius": null,
-    "affiliation": "Special vehicles section",
+    "affiliation": "Tokyo Metropolitan Police",
+    "pilots": null,
     "image": "/images/labors/8.jpg",
-    "description": "It was developed by Shinohara Heavy Industries to be a Training Task for cadets who aspire to pilot Patlabors."
+    "description": "A training labor built by Shinohara from the Ingram prototype and used at police training schools. It appears in the original OVA."
   },
   {
     "id": 9,
-    "name": "AV-98T Dauphan",
+    "name": "AV-98T Dauphin",
     "unit_type": "Training Police Patrol Labor",
     "release_date": null,
     "manufacturer": "Shinohara Heavy Industries, Hachioji Factory",
-    "height": null,
-    "width": null,
+    "height": "7.54 m",
+    "width": "4.25 m",
     "standard_weight": null,
-    "full_equipment_weight": null,
+    "full_equipment_weight": "5.50 t",
     "maximum_weight_lifting_capacity": null,
-    "armour_materials": null,
-    "standard_equipment": null,
+    "armour_materials": [
+      "Reinforced steel",
+      "Fiber-reinforced plastic"
+    ],
+    "standard_equipment": [
+      "Stun stick",
+      "Shield",
+      "Paint gun"
+    ],
     "optional_equipment": null,
     "minimum_revolving_radius": null,
-    "affiliation": "Special vehicles section",
+    "affiliation": "Tokyo Metropolitan Police",
+    "pilots": null,
     "image": "/images/labors/9.jpg",
-    "description": "Training Labor seen in the TV episode 'Kanuka Has Arrived'"
+    "description": "A training labor built from the Ingram prototype. It is slightly more agile than the Ingram, but its armour and sensors are simplified, and its cockpit is open-top. It is used at the police academy in Okutama and first appears in the TV episode 'Kanuka Has Arrived'."
   },
   {
     "id": 10,
-    "name": "AV-02T Lehrer",
+    "name": "Lehrer",
     "unit_type": "Training Police Patrol Labor",
     "release_date": null,
     "manufacturer": "Shinohara Heavy Industries, Hachioji Factory",
@@ -182,11 +251,199 @@
     "full_equipment_weight": null,
     "maximum_weight_lifting_capacity": null,
     "armour_materials": null,
-    "standard_equipment": null,
+    "standard_equipment": [
+      "Stun stick",
+      "Padded shield",
+      "Paint gun",
+      "Knuckle guard"
+    ],
     "optional_equipment": null,
     "minimum_revolving_radius": null,
-    "affiliation": "Special vehicles section",
+    "affiliation": "Tokyo Metropolitan Police",
+    "pilots": null,
     "image": "/images/labors/10.jpg",
-    "description": "Training Labor seen only in 'Patlabor 2 the movie'"
+    "description": "The training version of the AV-2 Valiant, used at the Hachioji training school. Its cockpit is open-top and pilots board from the back. It appears only in 'Patlabor 2: The Movie'."
+  },
+  {
+    "id": 11,
+    "name": "SRX-70",
+    "unit_type": "Prototype Police Patrol Labor",
+    "release_date": null,
+    "manufacturer": "SEJ, sold by Toyohata Auto",
+    "height": "7.90 m",
+    "width": "4.40 m",
+    "standard_weight": "5.90 t",
+    "full_equipment_weight": "6.15 t",
+    "maximum_weight_lifting_capacity": "2.85 t",
+    "armour_materials": [
+      "Fiber-reinforced plastic"
+    ],
+    "standard_equipment": [
+      "42mm autocannon",
+      "20mm Vulcan cannon"
+    ],
+    "optional_equipment": null,
+    "minimum_revolving_radius": "4.00 m",
+    "affiliation": "Tokyo Metropolitan Police",
+    "pilots": [
+      10
+    ],
+    "image": null,
+    "description": "A prototype offered to Division 1 as the Python's replacement in the TV series. Its heavy weapons were meant to gather combat data for military labors, and Nagumo blocks its adoption. It is later sold for private security as the Saturn."
+  },
+  {
+    "id": 12,
+    "name": "Type-J9 Griffon",
+    "unit_type": "Experimental Combat Labor",
+    "release_date": null,
+    "manufacturer": "Shaft Enterprises Japan, Tsuchiura Laboratory",
+    "height": "8.55 m",
+    "width": "4.60 m",
+    "standard_weight": "7.15 t",
+    "full_equipment_weight": "7.60 t",
+    "maximum_weight_lifting_capacity": "3.50 t",
+    "armour_materials": [
+      "Fiber-reinforced plastic",
+      "Carbon fiber-reinforced metal"
+    ],
+    "standard_equipment": null,
+    "optional_equipment": [
+      "Flight unit",
+      "Aqua unit"
+    ],
+    "minimum_revolving_radius": "4.30 m",
+    "affiliation": "Shaft Enterprises Japan",
+    "pilots": [
+      17
+    ],
+    "image": null,
+    "description": "The \"black labor\", built in secret by Shaft's Planning Section 7 to outperform every existing labor. Piloted by Bud, it is Section 2's greatest rival in the manga, the TV series and the second OVA series."
+  },
+  {
+    "id": 13,
+    "name": "Type-7 Brocken",
+    "unit_type": "Military Labor",
+    "release_date": null,
+    "manufacturer": "Shaft Enterprises Europe",
+    "height": "8.68 m",
+    "width": "4.69 m",
+    "standard_weight": "8.23 t",
+    "full_equipment_weight": "8.92 t",
+    "maximum_weight_lifting_capacity": "4.00 t",
+    "armour_materials": [
+      "Reinforced steel composite"
+    ],
+    "standard_equipment": [
+      "105mm cannon",
+      "40mm rapid-fire cannon",
+      "Smoke discharger",
+      "TOW missile launcher"
+    ],
+    "optional_equipment": null,
+    "minimum_revolving_radius": "6.20 m",
+    "affiliation": "NATO forces and the West German army",
+    "pilots": null,
+    "image": null,
+    "description": "A heavily armed and armoured military labor used for border defense. According to Utsumi, its software is behind the Ingram's but its hardware is superior."
+  },
+  {
+    "id": 14,
+    "name": "ARL-99 Hel-Diver",
+    "unit_type": "Military Airborne Labor",
+    "release_date": null,
+    "manufacturer": "Shinohara Heavy Industries, Hachioji Factory",
+    "height": "7.95 m",
+    "width": "4.55 m",
+    "standard_weight": "5.75 t",
+    "full_equipment_weight": "6.81 t",
+    "maximum_weight_lifting_capacity": "3.10 t",
+    "armour_materials": [
+      "Fiber-reinforced metal",
+      "Carbon fiber-reinforced plastic"
+    ],
+    "standard_equipment": [
+      "40mm rapid-fire gun",
+      "Combat knife",
+      "Type 99 automatic cannon",
+      "TOW missile launcher",
+      "Smoke discharger"
+    ],
+    "optional_equipment": null,
+    "minimum_revolving_radius": "3.90 m",
+    "affiliation": "Japan Ground Self-Defense Force Mechanized Airborne Division",
+    "pilots": [
+      27
+    ],
+    "image": null,
+    "description": "The Ground Self-Defense Force's Type 99 airborne labor. Developed alongside the Ingram and sharing its basic frame, it is more agile and versatile than the earlier military labors it replaced."
+  },
+  {
+    "id": 15,
+    "name": "HL-96 Tyrant 2000",
+    "unit_type": "Heavy Construction Labor",
+    "release_date": "1996",
+    "manufacturer": "Hishii Industries",
+    "height": "8.02 m",
+    "width": "4.72 m",
+    "standard_weight": "12.03 t",
+    "full_equipment_weight": "12.65 t",
+    "maximum_weight_lifting_capacity": "3.70 t",
+    "armour_materials": [
+      "Fiber-reinforced metal"
+    ],
+    "standard_equipment": null,
+    "optional_equipment": null,
+    "minimum_revolving_radius": "7.80 m",
+    "affiliation": null,
+    "pilots": null,
+    "image": null,
+    "description": "A heavy construction labor that looks like a walking bulldozer with arms. Powerful but slow, it was a best seller that established Hishii in the labor industry, and it appears in almost every Patlabor series."
+  },
+  {
+    "id": 16,
+    "name": "HL-98 Hercules 21",
+    "unit_type": "Heavy Construction Labor",
+    "release_date": null,
+    "manufacturer": "Hishii Industries",
+    "height": "7.45 m",
+    "width": "5.12 m",
+    "standard_weight": "7.89 t",
+    "full_equipment_weight": "8.22 t",
+    "maximum_weight_lifting_capacity": "2.90 t",
+    "armour_materials": [
+      "Fiber-reinforced plastic",
+      "Aluminium"
+    ],
+    "standard_equipment": null,
+    "optional_equipment": null,
+    "minimum_revolving_radius": "5.50 m",
+    "affiliation": null,
+    "pilots": null,
+    "image": null,
+    "description": "A heavy construction labor that succeeds the Bulldog. It is more human-shaped and dexterous than the Tyrant, has a sealed cockpit and a periscope snorkel that lets it work underwater."
+  },
+  {
+    "id": 17,
+    "name": "TFV-97 Crabman",
+    "unit_type": "Land Leveling Labor",
+    "release_date": null,
+    "manufacturer": "Shinohara Heavy Industries",
+    "height": "6.14 m",
+    "width": "3.70 m",
+    "standard_weight": "9.06 t",
+    "full_equipment_weight": "10.01 t",
+    "maximum_weight_lifting_capacity": "15.00 t",
+    "armour_materials": [
+      "Carbon fiber-reinforced plastic",
+      "Fiber-reinforced metal",
+      "Fiber-reinforced ceramic"
+    ],
+    "standard_equipment": null,
+    "optional_equipment": null,
+    "minimum_revolving_radius": "5.00 m",
+    "affiliation": null,
+    "pilots": null,
+    "image": null,
+    "description": "A four-legged land leveling labor whose legs double as arms. Wheels in its feet let it move fast on roads, and it can keep walking even after losing a leg."
   }
 ]
