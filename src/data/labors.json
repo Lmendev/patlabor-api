@@ -26,6 +26,10 @@
     ],
     "minimum_revolving_radius": "3.90 m",
     "affiliation": "Section 2 Division 2",
+    "pilots": [
+      1,
+      4
+    ],
     "image": "/images/labors/1.jpg",
     "description": "The Ingram AV-98 (AV stands for 'Advanced Vehicle') was developed specially for the police force to combat Labor crime. It is styled in a way to look menacing. The main unit comes with two weapons; an electric baton (or stun stick, a weapon that can stop Labors with high powered electric currents) which is stored under it's shield in it's left arm, and a 37mm revolver cannon, stored in it's left leg. A 90mm riot gun was also developed by the mechanics at the SV2 for the Ingram. The Second Division of the SV2 use these Labors. Ota's AV-98 (Unit 2) has a customised head which is very different to the standard issue. Unit 3 (the spare Labor) also has a customised head. In 'Patlabor 2 the movie', Unit 3 was developed as an experimental anti-electronic warfare Labor by Shinohara Heavy Industries, and it's head is equipped with ECM (Electronic Counter Measures) jamming pod."
   },
@@ -52,6 +56,9 @@
     "optional_equipment": null,
     "minimum_revolving_radius": "5.20 m",
     "affiliation": "Section 2",
+    "pilots": [
+      4
+    ],
     "image": "/images/labors/2.jpg",
     "description": "Based upon an old construction Labor, the Asuka-SSL-96 Taisyo. The term MPL stands for 'Main Police Labor'. This Labor was modified to create the first Patrol Labor. Though the only real modification was the addition of a light unit, police siren and a paint job. The first unit of the SV2 in the original OVA, and second unit in the first episode of the TV series used these Labors. They are fairly clunky and weren't much use against many criminal Labors."
   },
@@ -77,6 +84,10 @@
     "optional_equipment": null,
     "minimum_revolving_radius": "3.20 m",
     "affiliation": "Section 2",
+    "pilots": [
+      9,
+      5
+    ],
     "image": "/images/labors/3.jpg",
     "description": "Essentially the AV-98 Ingram on steroids, this Patrol Labor is much more stronger than the Ingram and can lift a small construction Labor up with one hand a break it in to two. This Labor was designed with hand to hand combat in mind. In 'Patlabor the movie', Kanuka Clancy pilots the Labor while it is infected with the Babel Virus. Shinohara have also produced a version for the New York Police Department called the AV-02 Clash Buster which comes with a 44mm cannon, but this Labor does not appear in the anime."
   },
@@ -101,6 +112,9 @@
     "optional_equipment": null,
     "minimum_revolving_radius": "5.90 m",
     "affiliation": "Section 2 Division 1",
+    "pilots": [
+      10
+    ],
     "image": "/images/labors/4.jpg",
     "description": "Used by Division 1 in the TV series. This Labor may not be as good as the Ingram, but is still effective against most construction Labors. The term MPL stands for 'Main Police Labor'."
   },
@@ -127,6 +141,7 @@
     "optional_equipment": null,
     "minimum_revolving_radius": "3.00 m",
     "affiliation": "Section 2 Division 1",
+    "pilots": null,
     "image": "/images/labors/5.jpg",
     "description": "The AV-0 is shinohara industries final variant of the 'Ingram', and is expected to be the replacement of the model. It has already replaced the 'Python' units of section one. It is equipped mainly with the same equipment as the 'Ingram', police equipment, however there are major changes in the softwere and engineering of the unit. It is equipped with a nervous system that enables the robot to operate even when the pilot has lost conscience as it learns the movements of its pilots and copies them perfectly. It is also stronger and faster than 'Ingram' as it is able to operate with more eficiency, although unlike the Ingram it relies more on its superior technology than the abilities pilot himself which can be seen as a weakness as well as a strength, for example the Peacemaker system prevents it from going into battle near a civilian building. It has however been proved that it is not a match for the 'Griffon' and it's confrontation with it ends with the Peacemaker units of section one badly damaged. It is also known that this model is going to be delivered to the NYPD for its police labor unit."
   },
@@ -150,6 +165,7 @@
     "optional_equipment": null,
     "minimum_revolving_radius": null,
     "affiliation": "Section 2",
+    "pilots": null,
     "image": "/images/labors/6.jpg",
     "description": "Very little is known about this model, due to its brief appearance. Judging from its design, this model appears to be based on the Ingram and the AV-X0 , with several functional enhancements added. Since it is the successor to the Ingram, it must be superior in some respects. The AV-02 Variant features a similar design, including the lights on its shoulders. It probably has good self-balance and a wide range of sensors located on its head."
   },
@@ -169,6 +185,7 @@
     "optional_equipment": null,
     "minimum_revolving_radius": null,
     "affiliation": "Kanagawa Prefectural Police Traffic Unit",
+    "pilots": null,
     "image": "/images/labors/7.jpg",
     "description": "It is a traffic control task that can overcome any traffic jam thanks to its wheels and extendable legs. In its vehicle mode it resembles a car. When the legs are extended it goes into Labor mode, in which it can literally ride on other vehicles and manipulate objects with its retractable arms."
   },
@@ -191,6 +208,7 @@
     "optional_equipment": null,
     "minimum_revolving_radius": null,
     "affiliation": "Tokyo Metropolitan Police",
+    "pilots": null,
     "image": "/images/labors/8.jpg",
     "description": "It was developed by Shinohara Heavy Industries to be a Training Task for cadets who aspire to pilot Patlabors."
   },
@@ -217,6 +235,7 @@
     "optional_equipment": null,
     "minimum_revolving_radius": null,
     "affiliation": "Tokyo Metropolitan Police",
+    "pilots": null,
     "image": "/images/labors/9.jpg",
     "description": "Training Labor seen in the TV episode 'Kanuka Has Arrived'"
   },
@@ -241,6 +260,7 @@
     "optional_equipment": null,
     "minimum_revolving_radius": null,
     "affiliation": "Tokyo Metropolitan Police",
+    "pilots": null,
     "image": "/images/labors/10.jpg",
     "description": "Training Labor seen only in 'Patlabor 2 the movie'"
   }
