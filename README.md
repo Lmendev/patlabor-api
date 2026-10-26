@@ -59,7 +59,6 @@ Information gathered from various resources:
 - [patlabormechanime.fandom](https://patlabormechanime.fandom.com/es)
 - [patlabor.fandom](https://patlabor.fandom.com/)
 - [MyAnimeList](https://myanimelist.net/)
-- [patlabor.info](https://www.patlabor.info/)
 - [Anime News Network](https://www.animenewsnetwork.com/)
 
 ## License
