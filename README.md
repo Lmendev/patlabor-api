@@ -22,15 +22,21 @@ Result:
 {
   "id": 1,
   "name": "Noa Izumi",
-  "age": null,
+  "japanese_name": "泉 野明",
+  "age": 20,
+  "birth_date": "1978-12-17",
   "birthplace": "Tomakomai, Hokkaido, Japan",
   "nationality": "Japanese",
   "gender": "female",
-  "occupation": "labors pilot",
+  "occupation": "Unit 1 pilot",
   "rank": "officer",
   "affiliation": "Section 2 Division 2 Team 1",
+  "voice_actor": "Miina Tominaga",
   "image": "https://patlabor-api.lmendev.workers.dev/images/characters/1.jpg",
-  "description": "Noa is somewhat impulsive, albeit not nearly as much as Ohta... "
+  "description": "Noa is somewhat impulsive, albeit not nearly as much as Ohta... ",
+  "labors": [
+    "https://patlabor-api.lmendev.workers.dev/api/v1/labors/1"
+  ]
 }
 ```
 
