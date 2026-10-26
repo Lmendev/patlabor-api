@@ -414,5 +414,21 @@
     "voice_actor": "Megumi Hayashibara",
     "image": null,
     "description": "From Patlabor EZY, set in 2033. Captain of Division 2. Calm and soft-spoken but quick to react when needed, she would prefer a quiet shift and is often exasperated by her subordinates."
+  },
+  {
+    "id": 27,
+    "name": "Tamaki Fuwa",
+    "japanese_name": "不破 環生",
+    "age": null,
+    "birth_date": null,
+    "birthplace": null,
+    "nationality": "Japanese",
+    "gender": "female",
+    "occupation": "Airborne labor platoon commander",
+    "rank": "first lieutenant",
+    "affiliation": "Japan Ground Self-Defense Force Mechanized Airborne Division",
+    "voice_actor": "Masako Katsuki",
+    "image": null,
+    "description": "Commander of the Ground Self-Defense Force's airborne labor platoon, who pilots the Hel-Diver. A close friend of Nagumo since their school days, she tries to recruit Noa into the Self-Defense Forces in the TV series."
   }
 ]
