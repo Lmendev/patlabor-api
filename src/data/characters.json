@@ -33,7 +33,7 @@
     "nationality": "Japanese",
     "gender": "male",
     "occupation": "Captain of Division 2",
-    "rank": "captain",
+    "rank": "assistant inspector",
     "affiliation": "Section 2 Division 2",
     "image": "/images/characters/3.jpg",
     "description": "Captain Goto seems quite laid back, even apathetic, but is in fact an extremely capable and politically savvy police officer; not only is his strategic awareness quite acute, Goto is as subtle and manipulative as any given situation requires. Hence he got the nickname \"Razor Goto\" in the police. It was rumored that because of these traits, the top officials in the police force assigned him to SV.2 for fear he might ruffle too many feathers. True to form, however, Goto is on top of most events long before most others are even aware of what's going on. It can also be noted within him that a small sadistic streak exists, in that he enjoys the suffering of his team members on letting them do all the detective work where he already knew what they are sent out to discover; much to the chagrin of his subordinates who loathe this quality. Goto is a heavy smoker, has athlete's foot and can often be seen wearing traditional Japanese wooden sandals around the office. It is very strongly implied that Kiichi has a crush on Shinobu, which seems completely unrequited."
@@ -59,7 +59,7 @@
     "nationality": "American - Japanese",
     "gender": "female",
     "occupation": "labors pilot",
-    "rank": "lieutenant",
+    "rank": "sergeant",
     "affiliation": "Section 2 Division 2 Team 2",
     "image": "/images/characters/5.jpg",
     "description": "A temporary member of Section 2, on assignment from the NYPD. Sent to observe a labor unit with the purpose of helping build one for New York City. Highly capable in all duties. Her piloting skills are better than Ohta's, but was assigned to backup duty since acclimating the Labor to a temporary officer would be a poor decision. (Also, keeping Ohta in line is not a job for an idiot). Much like Nagumo, Kanuka is very by-the-book. She is usually all business and sometimes cold to the members of SV.2 with the exception of Noa. Kanuka was born in Hawaii but apparently moved to New York later on. When she travels back to New York, she stops in Hawaii to see her grandmother whom she loves dearly. Kanuka's piloting skills are to be feared."
@@ -85,7 +85,7 @@
     "nationality": "Japanese",
     "gender": "female",
     "occupation": "labors pilot",
-    "rank": "officer",
+    "rank": "sergeant",
     "affiliation": "Section 2 Division 2 Team 2",
     "image": "/images/characters/7.jpg",
     "description": "Joined Section 2 shortly after Clancy's tenure ended, she takes Clancy's place as backup to Unit 2. She trained with the Hong Kong Police Force before getting assigned to the Ministry of Foreign Affairs. She was then offered a position with Interpol but ended up choosing the Special Vehicles department to continue her career. Calm and confident, Kumagami attends to her duties as effectively as Clancy did, but has different ideas about how to go about it. She practices martial arts and can be seen tossing Ohta and the rest of the Division 2 team around in sparring matches when not in the field. Kumagami's only weakness seems to be a fear of the supernatural. She is easily spooked and prone to fainting if scared sufficiently."
@@ -111,7 +111,7 @@
     "nationality": "Japanese",
     "gender": "female",
     "occupation": "Captain of Division 1",
-    "rank": "captain",
+    "rank": "assistant inspector",
     "affiliation": "Section 2 Division 1",
     "image": "/images/characters/9.jpg",
     "description": "She is a professional, competent police officer, highly regarded by everyone in the police force - basically the exact opposite of Captain Kiichi Goto. Nagumo is a by-the-book style captain (as opposed to Goto who will often use somewhat unconventional methods to meet a goal); she always keeps her mind on the job and never loses her cool. Often she talks back to her superiors when she disagrees with an order, and this is probably why she remains at the SV2 rather being promoted to another job more worthy of her skills. Despite her conventional mentality, or because of it, she is always there to lend a hand whenever Division 2 needs it. She shares an office with Goto, which means she sees a lot of Goto's layabout act – and also is able to tell that Goto is a much more skilled police officer than he looks (their professional relationship might best be described as 'interesting'). It is also implied that Shinobu might have feelings for Kiichi."
@@ -124,7 +124,7 @@
     "nationality": "Japanese",
     "gender": "male",
     "occupation": "labors pilot",
-    "rank": "officer",
+    "rank": "sergeant",
     "affiliation": "Section 2 Division 1 Team 2",
     "image": "/images/characters/10.jpg",
     "description": "One of the labor pilots for Division 1, and much like his commanding officer, he's very by-the-book. A good pilot, although his coworkers in Division 2 seem to have more talent. He only appears in the TV series. At the end of the series he becomes captain of the newly-formed Division 3"
@@ -137,7 +137,7 @@
     "nationality": "Japanese",
     "gender": "male",
     "occupation": "labors mechanic",
-    "rank": "chief mechanic",
+    "rank": null,
     "affiliation": "Section 2 Mechanics",
     "image": "/images/characters/11.jpg",
     "description": "Leader of the labor mechanics that service SV.2. Gruff and loud, Sakaki doesn't like it when Division 2 brings back their labors in less than perfect condition. Threatens to throw all his mechanics into the sea when they don't perform up to his expectations. Sakaki has been a mechanic for most of his life but admits he finds it difficult to keep up with the ever advancing march of technology in the world."
@@ -150,7 +150,7 @@
     "nationality": "Japanese",
     "gender": "male",
     "occupation": "labors mechanic",
-    "rank": "chief mechanic",
+    "rank": null,
     "affiliation": "Section 2 Mechanics",
     "image": "/images/characters/12.jpg",
     "description": "Second in command to Sakaki, and eventually replaces him when he retires. A total gearhead, he loves his job--probably a little too much, as he can be very hard to relax when he gets fired up. Shige is good friends with Asuma Shinohara."
