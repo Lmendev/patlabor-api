@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Ingram AV-98",
+    "name": "AV-98 Ingram",
     "unit_type": "Police Patrol Labor",
     "release_date": "April 1998",
     "manufacturer": "Shinohara Heavy Industries, Hachioji Factory",
@@ -20,7 +20,7 @@
   },
   {
     "id": 2,
-    "name": "MPL-96 Askua-96",
+    "name": "ASUKA96MPL",
     "unit_type": "Police Patrol Labor",
     "release_date": "October 1996",
     "manufacturer": "Shinohara Heavy Industries, Hachioji Factory",
@@ -39,7 +39,7 @@
   },
   {
     "id": 3,
-    "name": "AV-X0 (AV-2) Type X-0 'Zero'",
+    "name": "AV-X0 Type Zero",
     "unit_type": "Police Patrol Labor",
     "release_date": "September 1999",
     "manufacturer": "Shinohara Heavy Industries, Hachioji Factory",
@@ -77,7 +77,7 @@
   },
   {
     "id": 5,
-    "name": "AV-0 Peacemaker (Zero)",
+    "name": "AV-0 Peacemaker",
     "unit_type": "Police Patrol Labor",
     "release_date": "September 1999",
     "manufacturer": "Shinohara Heavy Industries, Hachioji Factory",
@@ -96,7 +96,7 @@
   },
   {
     "id": 6,
-    "name": "AV-02 Variant",
+    "name": "AV-2 Valiant",
     "unit_type": "Police Patrol Labor",
     "release_date": "2002",
     "manufacturer": "Shinohara Heavy Industries, Hachioji Factory",
@@ -134,7 +134,7 @@
   },
   {
     "id": 8,
-    "name": "MPL97AV-T (97-AV)",
+    "name": "MPL97AV-T",
     "unit_type": "Training Police Patrol Labor",
     "release_date": null,
     "manufacturer": "Shinohara Heavy Industries, Hachioji Factory",
@@ -153,7 +153,7 @@
   },
   {
     "id": 9,
-    "name": "AV-98T Dauphan",
+    "name": "AV-98T Dauphin",
     "unit_type": "Training Police Patrol Labor",
     "release_date": null,
     "manufacturer": "Shinohara Heavy Industries, Hachioji Factory",
@@ -172,7 +172,7 @@
   },
   {
     "id": 10,
-    "name": "AV-02T Lehrer",
+    "name": "Lehrer",
     "unit_type": "Training Police Patrol Labor",
     "release_date": null,
     "manufacturer": "Shinohara Heavy Industries, Hachioji Factory",
